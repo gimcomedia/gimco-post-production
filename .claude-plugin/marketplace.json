@@ -1,0 +1,11 @@
+{
+  "name": "gimco-media",
+  "owner": { "name": "Gimco Media" },
+  "plugins": [
+    {
+      "name": "gimco-post-production",
+      "source": "./plugins/gimco-post-production",
+      "description": "Arabic-first post-production system: creative direction for reels and ads, After Effects motion, MOGRTs, generation and social captions, plus a reference library of editing looks and recipes."
+    }
+  ]
+}

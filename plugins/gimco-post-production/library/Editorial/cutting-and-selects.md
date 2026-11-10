@@ -1,0 +1,51 @@
+# قواعد الكت والـselects والبي-رول
+
+- **الاستخدام:** أول مرحلة في بريمير: قص السكوت، الإعادات، البي-رول، الحفاظ على الكلام الأصلي.
+- **المكان:** نصي
+- **المتطلبات:** Premiere
+- **البديل Native:** مش محتاج
+- **الفهرس:** [INDEX](../INDEX.md)
+
+---
+
+## 3. Cutting rules (Premiere)
+
+- Work only on files the editor names; originals stay untouched. Deliver cuts as an importable sequence (FCP7 XML via `after-effects-knowledge`) plus an SRT, never by re-encoding the source.
+- Silence-only cuts that remove no word may go in the first draft: tighter for tutorials and tips; gentle for stories, opinions, jokes and natural feel. Propose retakes, fillers, false starts and every other speech cut before applying them.
+- Preserve recorded meaning, order and speed. Never synthesize or replace a doctor's speech.
+- Subtitles use reviewed recorded words; correct clear ASR errors against the audio and flag uncertain words (especially drug, procedure and anatomy terms).
+- B-roll: a 1-3 s real clip that illustrates what the speaker names while the voice continues; silent; starts on the cue word or up to 6 frames before; hard cuts between clips; never proof of a result; never covers the CTA, end card or sign-off. Full screen only if the clip is upscaled no more than 1.25x; otherwise split above the presenter.
+- Keep the recorded goodbye intact; no sting over it.
+
+## إيقاع الكت في ريل المتكلم: J-cut ونفَس قبل النقطة الجديدة
+- **الكت الأول حاد وسريع** (Razor ثم Ripple، جملة جملة). مع خطة جاهزة كت ريل 38 ثانية من خام دقيقة خد حوالي نص دقيقة.
+- **بعده J-cuts:** زحلق صوت كل جملة لحد ما أولها يبدأ تحت آخر صورة الجملة اللي قبلها، فالكلام يتوصل والكت يتخبّى. عشان الصوتين يتراكبوا، كليبات الصوت تتحط بالتبادل على A1 و A2.
+- **نفَس زيادة في مكانين بس:** قبل نقطة جديدة («الحقيقة إن…»)، وقبل الجملة المفاجئة أو السؤال اللي بيقلب الحكاية. باقي الكت مشدود.
+- الكابشن الأوتوماتيك بيتعمل بعد الـ J-cuts، وبيتراجع مكان كل كابشن على كلمته ([on-video-captions](../Premiere/on-video-captions.md)).
+
+## عرض البي-رول: إمتى، وتلات طرق
+القواعد اللي فوق بتقول البي-رول يتقص إزاي. ده بيقول يتعرض إزاي لما يكون جزء من تصميم الريل.
+
+- **إمتى بي-رول:** المتكلم بيحكي حكاية أو تجربة، أو عايز المشاهد يشوف نفسه في الموقف. اسمع الجملة وهات لقطة **للمتكلم نفسه** وهو عايش اللي بيتقال، ويفضل في مكان باين (مكان جديد = حكاية أكتر). اللقطة على قد المعنى: جملة سلبية تاخد لقطة غامقة.
+- **اختار الطريقة من الجملة ومن شكل اللقطة:**
+
+| الطريقة | إمتى | الشكل |
+|---|---|---|
+| Full-screen معالج | لقطة عمودية واحدة ولحظة مود واحدة | اللقطة مالية الكادر، منزوعة اللون وغامقة وأطرافها مبلورة، والنص في نصها |
+| شريط أفقي على صفحة فلات | اللقطة أفقية، أو عايز إحساس توثيقي وإيقاع مختلف | اللقطة شريط في نص صفحة بيضا (أو سودا)، والنص فوقها بيتقلب ضدها |
+| كولاج على صفحة | الجملة فيها كذا تجربة أو «كل حاجة» أو ليستة، أو بتوصف حال السوق والناس («السوق مليان…») | عنوان فوق ولقطات صغيرة (6–10) بتتراص واحدة ورا التانية: سلّم مايل، أو كتلة متعشّقة في النص |
+
+- **عمودي للـ full-screen وأفقي للشريط.** ما تمطّش لقطة أفقية على الكادر كله.
+- **انزع لون البي-رول ناحية باليتة الفيديو** (Saturation حوالي −60، ولحد −80 للقطات الكولاج). اللقطة المشبّعة وسط باليتة هادية بتبان من فيديو تاني.
+- **النص فوق البي-رول في النص مش تحت،** أو في الفراغ بين عناصر اللقطة (بين الشخص والحاجة اللي معاه) عشان ما يغطيش حاجة. ولما مشهدين بي-رول ييجوا ورا بعض، النص في نفس المكان فالعين ما تدوّرش.
+- لما مشهد جديد يدخل: اقطع اللقطة القديمة ونصها في نفس الفريم. واكتم صوت كل لقطة.
+- لعميل حقيقي طريقة واحدة للحكاية كلها كفاية (الشريط الأفقي أسهلهم). التلاتة ورا بعض تنويع مش شرط.
+- البناء والقيم: [recipe-editorial-talking-head](../After-Effects/recipe-editorial-talking-head.md) (القسم 7).
+
+## شورت سينمائي من فيديو طويل وقواعد الكت للّوك ده
+- **المصدر:** خام من غير نص ولا مزيكا، تسجيل عالي، وكادر ينفع عمودي (16:9 بـ Scale 200). المتكلم لازم يبقى مش لازق في الحافة العليا. قص كلام حد تاني للنشر محتاج إذن صاحبه.
+- **الهوك:** جملة سلبية، أو سؤال شائع كويس، أو ادعاء مثير. ارفض اللي محتاج مقدمة، أو برا الثيمة، أو بيه مقاطعات، أو وقفاته كتير. ممكن تدمج هوكين من مكانين، ولو الهوك والحل مش مرتبطين دوّر على جملة ربط في الفيديو كله.
+- **الحكاية:** بعد الهوك ترتيب حكي (بيشرح ← سؤال جديد ← قيمة ← خاتمة)، وأي حاجة بره قصة الهوك تتشال.
+- **للإيقاع:** الكت داخل الجملة ممنوع (السكوت جواها تشديد)، والصورة تنتهي قبل ما المتكلم يبص بعيد، والجملة اللي بتنزل نقطة تاخد هدوء، وآخر سكوت يتساب.
+- التفاصيل والقيم والأمثلة: [recipe-cinematic-broll-short](../Premiere/recipe-cinematic-broll-short.md) (4 و5).
+
