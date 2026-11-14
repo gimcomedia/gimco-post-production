@@ -19,6 +19,7 @@
 | لوك UI مينيمال (ريل نصايح) أو شورت كلمة كلمة أو فيديو طويل 16:9 في بريمير بس | [recipe-minimal-ui-and-realtime-builds](After-Effects/recipe-minimal-ui-and-realtime-builds.md) | القسم 1 (المينيمال) · 2 (الشورت) · 4 (الطويل) · [recipe-cinematic-broll-short](Premiere/recipe-cinematic-broll-short.md) 11 (بريمير ولا افتر) · [قواعد البيت](Visual-Direction/style-systems.md) |
 | إعلان منتج مادي (أو عرض خدمة/تطبيق بمتكلم) | [recipe-product-linked-cards](After-Effects/recipe-product-linked-cards.md) · [recipe-offer-two-worlds](After-Effects/recipe-offer-two-worlds.md) · [motion-without-speaker](Visual-Direction/motion-without-speaker.md) | **مفيش وصفة كاملة لسه** لإعلان المنتج المادي (تصوير المنتج + بي-رول)؛ المذكور أعلاه أقرب حاجة. صورة المنتج مطلوبة قبل التوليد · [قواعد البيت](Visual-Direction/style-systems.md) |
 | محتوى طبي (دكتور، عيادة، عرض علاجي) | [Specialized/medical](Specialized/medical.md) · [look-by-shooting-conditions](Visual-Direction/look-by-shooting-conditions.md) | **مفيش وصفة طبية كاملة**؛ قواعد medical.md تكسب (Teal مطفي، موافقة مكتوبة لأي قبل/بعد، من غير ادّعاء نتيجة) · [offer-two-worlds](After-Effects/recipe-offer-two-worlds.md) للعرض بعالمين · [قواعد البيت](Visual-Direction/style-systems.md) |
+| إيديت كامل مبني بالكود (من غير افتر)، أو نسخ ريفرنس 1:1 بالقياس، أو بوست قبل/بعد | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) · [code-built-motion-prompts](Code-Built-Motion/code-built-motion-prompts.md) | المبادئ: الخطة بالكلمة، قاموس أنواع السطور، الحركة بالأرقام، الشاشة في الأوضة، النسخ 1:1، إطار العرض · القوالب 1–6 · [قواعد البيت](Visual-Direction/style-systems.md) |
 
 مكتبة المراجع الثابتة لنظام السكيلات v2. السكيلات فيها القرار والخطوات، والمكتبة فيها التفاصيل والوصفات والقيم.
 - كل ملف فيه في أوله: الاستخدام، المكان، المتطلبات، البديل Native.
@@ -36,6 +37,10 @@
 | أقص السكوت والإعادات وأختار الـselects | [cutting-and-selects](Editorial/cutting-and-selects.md) · [polite-after-pro](Tools-and-Presets/polite-after-pro.md) (Silence Remover) | ✓ |
 | إيقاع مش ممل / موجات طاقة | [structure-hook-safezone-pacing](Editorial/structure-hook-safezone-pacing.md) · [timeline-principles](Premiere/timeline-principles.md) | ✓ |
 | أتعلم ستايل فيديو ريفرنس | [reference-analysis](Editorial/reference-analysis.md) | ✓ |
+| أنسخ ريفرنس 1:1 بالقياس (REF وDIFF لكل بيت) | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (نسخ ريفرنس 1:1) · [code-built-motion-prompts](Code-Built-Motion/code-built-motion-prompts.md) (القالب 4) | ✓ نفس المنهج في افتر بالقياس على فريمات الريفرنس |
+| إعلان أو موشن معروض على شاشة مكتب أو لابتوب في أوضة حقيقية | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (الشاشة في الأوضة) · [code-built-motion-prompts](Code-Built-Motion/code-built-motion-prompts.md) (القالب 3) | ✓ Corner Pin أو Mocha، وGlow خفيف ونور الشاشة على المكتب |
+| بوست قبل/بعد: الخام بالأبيض والأسود جنب الإيديت | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (إطار العرض قبل/بعد) · [code-built-motion-prompts](Code-Built-Motion/code-built-motion-prompts.md) (القالب 5) | ✓ كومب 1080×1920 بكارتين متزامنين |
+| نسخ كتير من نفس الإيديت لفروع أو حملات | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (اللون والتايب) | ✓ لون الأكسنت كنترول واحد في لاير الكنترول أو الموجرت |
 | الجملة دي أشرحها بصريًا إزاي | [sentence-to-technique](Visual-Direction/sentence-to-technique.md) | ✓ |
 | مقارنة حالتين / قبل وبعد | [sentence-to-technique](Visual-Direction/sentence-to-technique.md) (مقارنة، صح/غلط) · [vahid-graph-library](Tools-and-Presets/vahid-graph-library.md) | ✓ ثبّت مكان العنصر وغيّر حالته |
 | رقم أو نسبة بتعد | [sentence-to-technique](Visual-Direction/sentence-to-technique.md) · [vahid-graph-library](Tools-and-Presets/vahid-graph-library.md) · [saveobjects-library](Tools-and-Presets/saveobjects-library.md) | ✓ Slider + إكسبريشن |
@@ -345,6 +350,13 @@
 | [وصفة: لوك الـ UI المينيمال + شورت كلمة كلمة في بريمير + بناءات بسرعة الشغل + تفكيك أنيميشنز فيرال](After-Effects/recipe-minimal-ui-and-realtime-builds.md) | ورق فاتح وبارات بيل وبلاطات برتقالي وكيرسر، وشورت كلمة كلمة بريمير بس بتصدير، وستايل صانع محتوى اتبنى في ساعتين ونص (بناء ملاحَظ)، وفيديو طويل 16:9 في بريمير، وإيزينج سريع-بطيء ودخول نص وتظليل Linear Wipe وPosterize Time من تفكيك أنيميشنز. | Deep Glow 2 وBOUNCr (اختياري) | Glow الأساسي وInertia وبريستات تتبني بإيد |
 | [الريل كله جوه افتر + الدمج مع بريمير](After-Effects/whole-reel-in-ae.md) | لما الريل فيه جلاس أو Blend Modes أو Adjustment Layers، وتقسيم الكت لكومب لكل مشهد بـ Scene Edit Detection، وتنظيم كومب واحد بكابشن كلمة كلمة، وقواعد الشغل على كليب الـ Dynamic Link في بريمير. ومنها زوم يكبّر الفوتيدج والجرافيك مع بعض. | مش محتاج | مش محتاج |
 
+### Code-Built Motion — إيديت كامل بالكود، نسخ ريفرنس 1:1 بالقياس، قوالب البرومبت
+
+| الملف | الاستخدام | المتطلبات | البديل Native |
+|---|---|---|---|
+| [موشن مبني بالكود: المبادئ](Code-Built-Motion/code-built-motion-edits.md) | إيديت كامل بالكود من الخطة بالكلمة للـQC: قاموس أنواع السطور (هوك، تقريرية، ليستة، ادعاء كبير، سطر هادي)، أرقام الحركة (pop، blur، push-in، حافة الماسك)، ترتيب الطبقات والنص ورا الشخص، الشاشة في أوضة حقيقية (corner pin، mesh warp، نور الشاشة، أوضة Blender بتلات بليتات)، الخرايط بمسار حقيقي وكاميرا واحدة، الصوت، الـQC، نسخ ريفرنس 1:1 بالقياس، النوتس، العربي، ونسب إطار العرض قبل/بعد. | Claude Code + Python (OpenCV، MediaPipe أو rembg) + ffmpeg + Chrome headless + GSAP | نفس المبادئ في افتر وبريمير |
+| [قوالب برومبت لإيديت مبني بالكود](Code-Built-Motion/code-built-motion-prompts.md) | 6 قوالب بكتابتنا وقواعد البيت جواها: ستايل على كليب جديد، إنترفيو بسبليت وchips، إعلان منتج على شاشة مكتب، نسخ ريفرنس 1:1، إطار عرض قبل/بعد، جولة نوتس. | زي المبادئ | تنفع كبريف لشغل افتر |
+
 ### MOGRT — الكنترولز، النص المرن، المدد المتغيرة، الاختبار في بريمير
 
 | الملف | الاستخدام | المتطلبات | البديل Native |
@@ -442,3 +454,21 @@
 | كورس Ultimate Editors 2.0 — موديول Dynamic 3D Editing Masterclass (11 درس: مبادئ 3D وورك فلو، أساسيات التصميم، التصميم السينمائي، أنيميشن UI حديث، الكاميرا 3D، الإضاءة السينمائية (سبوت لايت وظلال)، أنيميشن سينمائي كامل، بوست الواقعية، ترانزيشنز مورف، وبناء تمرين؛ ومعاه دراسة إعلان مرجعي 30 ثانية لقطة بلقطة) | After-Effects/recipe-dynamic-3d-ui-scene، وإحالات في camera-3d وmorphing وrecipe-selector-wheel-phone-cards، وTools-and-Presets/plugins-by-need وLOCATIONS (فولدره: `C:\Users\Gimco Media 3\Documents\Cluade\New folder\Post-Production-Assets\Ultimate-Editors-2.0\Ultimate Editors 2.0 Updated\Dynamic 3D Editing Masterclass`)، وVisual-Direction/sentence-to-technique |
 | كورس Ultimate Editors 2.0 — موديول Raw Tutorials Recording (تسجيلات شغل حقيقي بسرعتها: ريل UI غامق متكلم في 3 أجزاء بالصوت، وشورتين فيرال، وإديت بستايل صانع محتوى من غير تعليق ساعتين ونص، وفيديو طويل في بريمير، وإديتين مينيماليزم UI، وإديت سينمائي في جزئين؛ أغلبها من غير تعليق مسموع فالقيم مقروءة من الشاشة) | After-Effects/recipe-minimal-ui-and-realtime-builds (جديد)، recipe-dark-ui-talking-head (القسم 14)، Premiere/recipe-cinematic-broll-short (القسم 19)، After-Effects/rhythm-easing-expressions، Visual-Direction/sentence-to-technique، Tools-and-Presets/plugins-by-need، LOCATIONS |
 | كورس Ultimate Editors 2.0 — موديول Viral Animation Breakdown (تفكيكين لأنيميشنز فيرال من سلسلة 30 تفكيك) | After-Effects/recipe-minimal-ui-and-realtime-builds (القسم 5)، rhythm-easing-expressions |
+| 45 جايد مجاني من Edita Club ([editaclub.com/g](https://editaclub.com/g/))، اتذاكروا في نوفمبر 2026: الشرح ثانية بثانية والبرومبتات والفيديوهات (30 إيديت مختلف، والباقي نفس الإيديت بلون أكسنت أو خلفية تانية). البرومبتات ما اتنقلتش بالحرف؛ المبادئ والقوالب بكتابتنا | Code-Built-Motion/code-built-motion-edits (جديد)، Code-Built-Motion/code-built-motion-prompts (جديد) |
+
+### ريفرنسات Edita Club للرجوع لها
+
+الصفحة فيها الشرح ثانية بثانية والفيديو.
+
+| الريفرنس | ليه نرجع له |
+|---|---|
+| [spotlight-type](https://editaclub.com/g/spotlight-type/) | تايب حركي ورا الشخص في 7.5 ث: ترتيب الطبقات، إيقاع انفجار ثم ثبات، X للغلط وصح للصح |
+| [lime-edit](https://editaclub.com/g/lime-edit/) | متكلم 16:9: كانفاس بلون واحد، كلمة ورا الشخص، عداد فلوس، نص على stroke، قفلة بصفوف باهتة |
+| [herbalist](https://editaclub.com/g/herbalist/) | إنترفيو: بي رول على الكلمة، سبليت بيتبدل، chips للّيستة، قاموس أنواع السطور |
+| [clinic-ad](https://editaclub.com/g/clinic-ad/) | إعلان عيادة 75 ث: كلمة ورا الدكتورة كبصمة متكررة، كروت أسئلة، رحلة المريض على خط |
+| [podcast-edit](https://editaclub.com/g/podcast-edit/) | بودكاست تحريري رمادي: كتاوت + سيريف عملاق، ink wipe، light leak، لون مرتين بس |
+| [glass-ad](https://editaclub.com/g/glass-ad/) | إعلان منتج على شاشة مكتب: جلاس، نفق موبايلات، كبسولة تحميل، تثبيت الشاشة |
+| [daily-cut](https://editaclub.com/g/daily-cut/) | قصة UI في 7 بيتات بالكروت والكالندر، من غير كابشن |
+| [75](https://editaclub.com/g/75/) | موشن على لابتوب في أوضة: relight من الشاشة، انعكاس، ومثال نوتس حقيقي |
+| [route-duel](https://editaclub.com/g/route-duel/) | مقارنة أمينة بين نسختين بأحكام أحمر/أخضر على شاشة مقوسة |
+| [pixel-type](https://editaclub.com/g/pixel-type/) | تايب بكسل وفك شفرة الكلمة وقائمة اختيار (لاتيني؛ في العربي كلمة بكلمة) |
