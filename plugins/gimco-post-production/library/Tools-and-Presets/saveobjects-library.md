@@ -1,35 +1,15 @@
 # مكتبة عناصر UI جاهزة (SaveObjects)
 
 - **الاستخدام:** عنصر UI صغير جاهز (شارت، تشيك ليست، سيرش، نوتيفيكيشن، جلاس بوكس).
-- **المكان:** Documents\SaveObjects_Assets (اسم الفولدر ظاهر على الجهاز)
+- **المكان:** `<DOCS>\SaveObjects_Assets` (متحقق؛ الجذر في LOCATIONS)
 - **المتطلبات:** After Effects
 - **البديل Native:** بناء العنصر بـ Shape Layers + Inertia
 - **الفهرس:** [INDEX](../INDEX.md)
 
 ---
 
-## المكتبة
-- **المكان:** `Documents\SaveObjects_Assets\Motions Essences` (114 بروجيكت) و `...\Wife` (216 بروجيكت). كل عنصر في فولدر فيه .aep و .gif معاينة و .png، وأحيانًا خطوط .ttf. الكتالوج الكامل في `Documents\Gimco_Motion_Skill\asset-library.md`.
-- **الستايل:** عناصر UI صغيرة على خلفية شفافة: كروت مدوّرة بيضا أو غامقة، وماوس بيدوس، وتشيك ليست، وبروجريس بار، وجلاس/ليكويد بوكس فوق الفيديو، ونيون لاين.
-- **توظيفها في ريلز المتكلم:**
-  - Charts و Progress_Bar: أرقام ونسب (مثلًا 1 من كل 10 ستات).
-  - Checklist و Checkbox: الأعراض أو الخطوات.
-  - Toggles V_X/X_V: خرافة ولا حقيقة.
-  - Search Bar: البحث عن اسم المرض.
-  - messages و IG_Comment: سؤال مريضة.
-  - Notification: تذكير بالموعد.
-  - Time و Countdown: أيام الدورة والمواعيد.
-  - Maps Location_Pin: مكان العيادة.
-  - Level Up: مراحل العلاج.
-  - Liquid/Glass و Box: كروت معلومة فوق الدكتورة.
-  - Cinematic_Bars و Lined_Background: لقطات انتقالية.
-- **إزاي تتنزل:**
-  1. افتح الـ .aep في افتر وغيّر النص والألوان (السلايدرز موجودة).
-  2. انسخ الكومب (أو Import للـ .aep) جوه كومب الريل في افتر فوق الدكتورة، مش رندر بألفا لبريمير.
-  3. اتأكد إنها ما تخبطش في الكابشن (حوالي Y 60–70% من الكادر) ولا في كروت VOLT.
-
 ## المكتبة (SaveObjects)
-- **المكان:** `Documents\SaveObjects_Assets\Motions Essences` (114 بروجيكت) و `...\Wife` (216 بروجيكت). كل عنصر في فولدر فيه .aep و .gif معاينة و .png، وأحيانًا خطوط .ttf. الكتالوج الكامل في `Documents\Gimco_Motion_Skill\asset-library.md`.
+- **المكان:** `<DOCS>\SaveObjects_Assets\Motions Essences` (114 بروجيكت) و `...\Wife` (216 بروجيكت). كل عنصر في فولدر فيه .aep و .gif معاينة و .png، وأحيانًا خطوط .ttf. الكتالوج الكامل في `<DOCS>\Gimco_Motion_Skill\asset-library.md` (الفولدر موجود، الملف ما اتفتحش).
 - **الستايل:** عناصر UI صغيرة على خلفية شفافة: كروت مدوّرة بيضا أو غامقة، وماوس بيدوس، وتشيك ليست، وبروجريس بار، وجلاس/ليكويد بوكس فوق الفيديو، ونيون لاين.
 - **توظيفها في ريلز المتكلم:**
   - Charts و Progress_Bar: أرقام ونسب (مثلًا 1 من كل 10 ستات).

@@ -77,6 +77,12 @@ ver = json.load(open(os.path.join(PLUGIN, ".claude-plugin", "plugin.json"), enco
 cl = os.path.join(ROOT, "CHANGELOG.md")
 top = re.search(r"^## (\d+\.\d+\.\d+)", read(cl), re.M).group(1) if os.path.exists(cl) else None
 check(f"النسخة {ver} متسجلة في أول CHANGELOG.md", top == ver, f"CHANGELOG: {top}")
+# 10) مسارات الجهاز مكتوبة في LOCATIONS بس، والباقي بيستخدم الجذور (<ASSETS> و<DOCS> و<AE> و<H> و<REPO>)
+MACHINE = [r"[A-Za-z]:\\Users\\", r"Downloads\\", r"Desktop\\", r"(?<![<\w])[A-Z]:\\", r"\\abdal\\", r"OneDrive\\"]
+PATH_OK = {os.path.join(LIB, "Tools-and-Presets", "LOCATIONS.md"), os.path.join(SKILLS, "montage-hub", "SKILL.md")}
+hits = [f"{os.path.relpath(p, ROOT)}:{i}" for p in list(md_files(SKILLS)) + list(md_files(LIB)) if p not in PATH_OK
+        for i, l in enumerate(read(p).split("\n"), 1) if any(re.search(r, l) for r in MACHINE)]
+check("مسارات الجهاز في LOCATIONS بس", not hits, "; ".join(hits[:10]))
 
 print(f"\n{sum(results)}/{len(results)} PASS")
 sys.exit(0 if all(results) else 1)

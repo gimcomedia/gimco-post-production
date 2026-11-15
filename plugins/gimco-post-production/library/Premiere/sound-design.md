@@ -182,7 +182,7 @@
 - مقابل الفئات دي في المكتبة المحلية (القسم اللي تحت): UI Sounds للكليكات، وفولدرات الـ Woosh، و Risers و Reverse Risers، و Camera Shutter، و Tally Up للعداد أو البار.
 
 ## مكتبة SFX محلية جاهزة (قبل ما ندوّر أونلاين)
-المكان: `H:\Courses\Editing\Eng\كورس مونتاج\04-BLADE_Editing_Pack\BLADE SFX`. اللي بينفع لشغلنا:
+المكان (درايف H، مش متحقق): `<H>\Courses\Editing\Eng\كورس مونتاج\04-BLADE_Editing_Pack\BLADE SFX`. اللي بينفع لشغلنا:
 - **UI Sounds:** Highlight (33)، Select (31)، Transition (23)، Notification (16)، Swipe (15)، Tally Up (13) للعدادات. دي أهم فولدر لكروت الجلاس والكيرسر والـ UI.
 - **Woosh/Swoosh:** أربع فولدرات (Woosh Sounds، Wooshes، Swoosh Sounds، Swoosh & Swish)، ومعاهم Digital Wooshes (Flash Frame و Swish) للترانزيشنز.
 - **Riser و Sound Design:** Risers و Reverse Risers و Tension، قبل الهوك أو لحظة الكشف.

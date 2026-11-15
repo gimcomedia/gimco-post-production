@@ -1,6 +1,6 @@
-# أماكن الملفات الفعلية والاعتماديات
+# أماكن الملفات على الجهاز
 
-- **الاستخدام:** قبل ما تعتمد على أداة أو ملف خارج المكتبة: هل هو موجود ومتحقق منه؟
+- **الاستخدام:** المكان الوحيد لمسارات الجهاز. أي ملف تاني في المكتبة بيكتب الجذر (زي `<ASSETS>`) والباقي، أو بيقول «المكان في LOCATIONS».
 - **المكان:** نصي
 - **المتطلبات:** مش محتاج
 - **البديل Native:** مكتوب لكل بند
@@ -8,90 +8,71 @@
 
 ---
 
-حالة التحقق اتعملت يوم 2026-11-08 من الجلسة دي:
-- **متحقق (اسم الفولدر):** اسم الفولدر ظهر في قائمة `C:\Users\Gimco Media 3\Documents` بس، والمحتوى ما اتفتحش.
-- **غير متحقق:** المسار جاي من السكيلات القديمة ومحدش فتحه.
-- **غير متاح في المصدر:** الملف مذكور بالاسم وملوش نسخة في فولدر المصدر، فما اتنسخش.
-- **موجود كملف مضغوط، غير مفتوح** (اتسجّلت 2026-11-10): الأرشيف ظهر في جرد فولدر على الجهاز ومحتواه مقروء من قائمة الأرشيف بس. ما اتفكش، وملفات الـ .aep اللي جواه ما اتفتحتش في افتر.
+## القواعد
+- **المراجع وملفات التسطيب مكانها فولداراتنا** (`<ASSETS>` أو `<DOCS>`)، مش Downloads ولا Desktop. أي حاجة لسه هناك تتنقل، وبعدها يتكتب مسارها هنا.
+- **أي مسار بيتكتب هنا بس.** لو جهاز اتغير أو فولدر اتنقل، بيتعدّل السطر بتاعه هنا مرة واحدة.
+- **مسار ما بيوديش لحاجة يتشال.** لو ملف مش موجود، يتشال سطره، والوصفة تفضل بالبديل Native بتاعها.
+- آخر جرد: 2026-11-15 من جلسة متوصلة بالجهاز (`desktop-0619ej8`)، بأسماء الفولدرات. «متحقق» يعني الفولدر ظاهر، مش إن كل ملف جواه اتفتح.
 
-## فولدرات على الجهاز
+## الجذور
+| الجذر | المسار |
+|---|---|
+| `<REPO>` | `C:\Users\Gimco Media 3\Documents\Cluade\New folder\gimco-post-production` (السكيلات والمكتبة، الأصل على GitHub) |
+| `<ASSETS>` | `C:\Users\Gimco Media 3\Documents\Cluade\New folder\Post-Production-Assets` (الملفات التقيلة: بروجيكتات الكورسات، الأصوات، ملفات التسطيب) |
+| `<DOCS>` | `C:\Users\Gimco Media 3\Documents` |
+| `<AE>` | `C:\Program Files\Adobe\Adobe After Effects 2027\Support Files` (البريستات في `<AE>\Presets`، البانلات في `<AE>\Scripts\ScriptUI Panels`، البلاجنز في `<AE>\Plug-ins`) |
+| `<H>` | `H:\` درايف خارجي. **مش متحقق من الجلسة:** اتأكد إنه متوصل قبل ما تعتمد على أي حاجة عليه |
 
-| المرجع | المسار | الحالة | البديل لو مش موجود |
-|---|---|---|---|
-| مكتبة عناصر UI (SaveObjects) | `C:\Users\Gimco Media 3\Documents\SaveObjects_Assets` | متحقق (اسم الفولدر) | بناء العنصر بـ Shape Layers + Inertia ([rhythm-easing-expressions](../After-Effects/rhythm-easing-expressions.md)) |
-| مشاهد vahid_graph | جوه `SaveObjects_Assets\vahid_graph` (على الجهاز ده). المسار المكتوب في الكتالوج بتاع جهاز تاني | غير متحقق | نفس نظام البناء يدوي ([vahid-graph-library](vahid-graph-library.md)) |
-| Polite After Pro | `C:\Users\Gimco Media 3\Documents\Polite After Pro` | متحقق (اسم الفولدر) | Whisper للتفريغ، Lumetri للجريد |
-| Captioneer | `C:\Users\Gimco Media 3\Documents\Captioneer` | متحقق (اسم الفولدر) | Captions panel في بريمير من SRT |
-| فولدر شغل الموجرتات والسكربتات | `C:\Users\Gimco Media 3\Documents\Cluade` (الاسم مكتوب كده) | متحقق (اسم الفولدر)، محتواه ما اتفتحش | الوصفة اليدوية ([build-methods](../MOGRT/build-methods.md)) |
-| كتالوج المكتبة القديم | `C:\Users\Gimco Media 3\Documents\Gimco_Motion_Skill\asset-library.md` | الفولدر متحقق بالاسم، الملف غير متحقق | [saveobjects-library](saveobjects-library.md) |
-| مكتبة برومبتات الترانزيشن | `Documents\Gimco_Motion_Skill\abdallah-generate\transition-prompts-library.txt` | غير متحقق | [start-end-transitions](../Generation/start-end-transitions.md) |
-| بريستات حركة الأيقونات | `Desktop\Mahmoud's Presets` و Effects & Presets في افتر | غير متحقق | Scale/Position keyframes + Inertia |
-| باك المونتاج وSFX | `H:\Courses\Editing\Eng\...\BLADE SFX` | غير متحقق (درايف H) | Openverse أو أي مكتبة صوت مرخّصة |
-| كاش موجرتات بريمير | `Motion Graphics Template Media` جنب البروجيكت | غير متحقق | — |
-| موجرتات بريمير المتسطبة | `%AppData%\Roaming\Adobe\Common\Motion Graphics Templates` | غير متحقق | — |
-| Overlord (Figma plugin + AE extension + تطبيق) | Window > Extensions في افتر | غير متحقق | AEUX، أو Copy as PNG |
-| Copy Pasta | Window > Extensions في افتر | غير متحقق | Import للـPNG |
-| خطوط SF Pro / SF Arabic | فونتات النظام | غير متحقق | IBM Plex Sans Arabic / IBM Plex Sans |
-| تكستشرز صفحة (هاف تون نقط وخطوط مايلة، ورق خشن، كرتون) وسحاب PNG | مش محدد (موقع ستوك أو بحث صور) | غير متحقق | طرق Native في [plugins-by-need](plugins-by-need.md) (تكستشرز وأصول صفحة) |
-| خطوط اللوك الإيديتوريال اللاتيني (Gibson، Metropolis، Savala، SF UI Display) | فونتات النظام | غير متحقق (مش في قايمة المتسطب)؛ Montserrat و Inter متسطبين كبدايل لاتيني | المقابل العربي والبدايل في [arabic-typography](../Visual-Direction/arabic-typography.md) (كابشن رفيع + كلمة خاصة) |
-| Un-PreCompose (بلاجن افتر لفك البري-كومبات) | `Support Files\Plug-ins` بتاع افتر | **متسطب** (تحديث المونتير 2026-11-11) | نسخ لاير النص يدوي، أو Un-precompose في Motion Tools Pro |
-| مكتبة SFX باشتراك (Epidemic Sound) منظمة 3 فولدرات: whoosh / textures / risers and hits، ومعاها ملفات Riser شفط | مش محدد | غير متحقق | مكتبة الـ SFX المحلية و Openverse ([sound-design](../Premiere/sound-design.md)) |
-| فولدر مزيكا إنسترومنتال «مألوفة» | مش محدد | غير متحقق، والترخيص لازم يتراجع قبل الاستخدام | مزيكا مرخّصة أو صوت من مكتبة المنصة وقت النشر |
-| لوحة الإلهام والتخطيط (ملف Figma: قسم إلهام + قسم تخطيط، ولوحة لكل عميل أو ستايل) | مش محدد (حساب Figma) | غير متحقق إنها معمولة | فولدر صور متقسم بالستايل والعميل + اسكتش ورق ([reference-analysis](../Editorial/reference-analysis.md): بنك الإلهام) |
-| فولدرات حفظ الإلهام على المنصات (Collection إنستجرام، Bookmarks في X، بورد Pinterest) وحساب الفرجة المخصص | حسابات المونتير | غير متحقق | سكرين شوت مباشر للوحة |
-| خطوط عربي مرشحة حسب النوع: نسخ (Amiri، Noto Naskh Arabic)، رقعة (Aref Ruqaa)، عرض (Rakkas، Lalezar، Reem Kufi) | فونتات النظام | غير متحقق (مجانية، ومش من قايمة الخطوط المعتمدة) | A Jannat LT و Harmattan للنسخ، أو وزن ولون مختلف من نفس العيلة بدل الخط الخطاطي ([arabic-typography](../Visual-Direction/arabic-typography.md): أنواع الخطوط الأربعة) |
-| تكستشر خطوط اسكان (CRT)، وأوفرلاي شبكة نقط، وصورة ظل مرمي جاهزة | مش محدد | غير متحقق | Venetian Blinds، وكومب نقطة + CC RepeTile، و CC Radial Fast Blur على نسخة سودا من العنصر |
-| ملفات بناء لوك الست الغامق، النص: `Text Save.aep` (كابشن تقيل، كلمة خاصة، لمعة، أشعة، تكسير)، وخامة تمرين `7- raw short.mp4`، و9 ريلز ريفرنس `refference video\1–9.mp4` | `<فولدر موديول اللوك>\Text Animation-20251005T102014Z-1-001.zip` | موجود كملف مضغوط، غير مفتوح | الوصفة مكتوبة بالقيم: [recipe-dark-ui-talking-head](../After-Effects/recipe-dark-ui-talking-head.md) (القسم 4) |
-| ملفات بناء لوك الست الغامق، الهوكات: `Main Project.aep` (الهوكات الأربعة في كومب واحد)، وأيقونات `Resources\` (instagram و send و strategy و key و door-key و hash و hash-tag و fish-hook، كلها PNG)، وكليبات تمرين `Sample Edits\1–4.mp4`، ونسخة تانية من فولدر النص | `<فولدر موديول اللوك>\Hook Animations-20251005T102737Z-1-001.zip` | موجود كملف مضغوط، غير مفتوح | نفس الوصفة (القسم 5)، والأيقونات من [plugins-by-need](plugins-by-need.md) (أيقونات PNG جاهزة) |
-| ملفات بناء لوك الست الغامق، أنيميشنز الجسم: `Circle Selector Files\Circle Animation.aep`، و `Special Files\Special Effects.aep`، و `Quora UI Files\Quora UI animation.aep`، ومشروع `.aep` جوه كل من `Instagram UI Files` و `3D Reel Files` (ومعاه موديل `iphone_12_pro.glb`)، وسكرين شوتس الواجهات وأيقونات كليك وعدسة وصور كت-أوت | `<فولدر موديول اللوك>\Body Animations-20251005T110628Z-1-001.zip` | موجود كملف مضغوط، غير مفتوح | نفس الوصفة (القسم 6) |
-| ملف `.docx` فيه صفحة لوحة الستايل بتاعة نفس اللوك | `<فولدر موديول اللوك>` (ملف docx واحد جنب الأرشيفات) | موجود في جرد الفولدر، غير مفتوح | اللوحة تتبني بالطريقة في [reference-analysis](../Editorial/reference-analysis.md) (لوحة الستايل) |
-| خطوط لوك الست الغامق اللاتيني: Montserrat بأوزانه (ExtraBold و Black و Thin، من Google Fonts)، و SF UI Display للّيبلز | فونتات النظام | Montserrat متسطب (قرار المونتير 2026-11-10، اتأكد من الأوزان)؛ SF UI Display غير متحقق | المقابل العربي في [arabic-typography](../Visual-Direction/arabic-typography.md) (كابشن تقيل + كلمة Black) |
-| خطوط اللوك السينمائي البي-رول اللاتيني: Coolvetica Regular (Sans) وEdwardian Script ITC (Script)، ومذكور معاهم Montserrat وSF UI Display | فونتات النظام | Coolvetica/Edwardian/SF غير متحقق؛ Montserrat متسطب (قرار المونتير 2026-11-10) | المقابل العربي في [arabic-typography](../Visual-Direction/arabic-typography.md) والقسم 12 من [recipe-cinematic-broll-short](../Premiere/recipe-cinematic-broll-short.md) (دور Script: Amira Typo بقرار المونتير 2026-11-10) |
-| باك SFX الكورس للشورت السينمائي (25 ملف mp3 قصير): أمبيانس (`bird chirping` و`wind` و`wind 2` و`rain` و`room ambience`)، درونز (`positive drone` و`dark drone` و`drone metalic` و`drone anticipation` و`outcome drone`)، كليكات ميكانيكية (`mechanical single clicks` و`mechanical clicks` و`mechanics click` و`metalic click`) وتتابعات gears (`mechanical gear sequence` ونسخة soft و`slower mechanical gear` و`mechanical sequence 3`)، وفئات الترقّب (`bass riser` و`suckback risers` و`hit` وووشات: `whooosh intense` و`wind impact whoosh` و`whoosh imapct wind` و`random metalic whoosh`) | `C:\Users\Gimco Media 3\Documents\Cluade\New folder\Post-Production-Assets\Ultimate-Editors-2.0\4 Cinematic Short-Film Editing Style\23 - Sound Design Theory` | موجود في جرد الفولدر، غير مفتوح. ملفات SFX من مكتبة باشتراك: ترخيصها يتراجع قبل أي استخدام تجاري | [recipe-cinematic-broll-short](../Premiere/recipe-cinematic-broll-short.md) (القسم 15)، ومكتبة الصوت المحلية في [sound-design](../Premiere/sound-design.md) |
-| عدّاد Odometer، وCrates Long Shadow، وسكربت Easy Tools (مجانيين) | مش محدد (رابط في وصف الدرس) | غير متحقق | إكسبريشن عدّاد، نسخة ظل سودا، Anchor يدوي |
-| Motion Tools (كلاسيك، مجاني) للـ Offset | Window في افتر (بانل) | غير متحقق | سحب الكيز، أو Timing في Polite After Pro |
-| Loopy وPresetify وEZ Tools (بانلات) | Window في افتر (بانل) | Presetify متسطب (مجاني، 2026-11-11): بانل في `…\Support Files\Scripts\ScriptUI Panels\` ونسخة الأصل في `C:\Users\Gimco Media 3\Downloads\Presetify by KuldeepMP4\`، Loopy و EZ Tools غير متحقق | `loopOut("cycle")`، حفظ Preset يدوي |
-| Highlighter 2.0 (بانل بوكس وكيرسر وموجرت) | `…\Support Files\Scripts\ScriptUI Panels\Highlighter.jsxbin`، والأصل في `C:\Users\Gimco Media 3\Downloads\Tut\Highlighter v2.0.0 Win + Mac\` | متسطب (كلام المونتير؛ فيه نسختين في الفولدر، تتشال واحدة) | شيب بـ `sourceRectAtTime()` + Trim Paths ([highlighter](highlighter.md) القسم 10) |
-| باك موجرتات Highlighter النهائي (9 موجرتات `Abdallah Mogrts - …` بجروبات وكنترول لون النص) والبروجيكت `HLX_Mogrts_v01.aep` + `HL_Media_Placeholder.png` (الميديا اللي جوه Media Card) | `…\Highlighter-MOGRTs\` و `MOGRT_HLX\` | اتصدّروا من افتر 2027 (2026-11-11)، ما اتجربوش في بريمير. محتاجين thmanyah sans و Amira Typo | عبدالله طلب تنضيف الفولدر: السكربتات والمعاينات والباك القديم (HL Native) اتشالوا (`Deep_Clean_HLX.bat`). الطريقة متسجّلة في [highlighter](highlighter.md) و MOGRT/build-methods |
-| Smart Bounce 1.3 (بانل بريستات بوانس) وMotion Tools CLASSIC وFlow وAEUX (ظاهرين في مشروع تفكيك SaaS) | Window في افتر (بانلات) | غير متحقق | بريستات محمود، Inertia، F9 + Graph Editor، Copy as PNG من Figma |
-| مكتبتا صوت باشتراك (Artlist وEpidemic Sound) لشغل SaaS الاحترافي | مش محدد | غير متحقق | مكتبة الـ SFX المحلية و Openverse ([sound-design](../Premiere/sound-design.md)) |
-| باك Memoji وفولدر Emojipedia وباك إيموجي متحرك (Smileys) وملف HDR استوديو | فولدر الأصول في مشروع افتر (مش محدد) | غير متحقق | أيقونات خط، أي HDR مرخّص |
-| ملف HDR استوديو للإضاءة (مثلًا `studio_kominka_02_4k.hdr`)، وموديل `.glb`، وPNG لوجو شفاف | مش محدد (ملفات الدرس أو HDR استوديو مرخّص) | غير متحقق | أي HDR استوديو مرخّص |
-| صور كيرسر وسهم وعلامة صح وستيكرز وإيموجي PNG للدروس | مش محدد (ملفات الدرس) | غير متحقق | شيبات |
-| مشروعين إعلان 3D مرجعيين (كل مشروع فيه موبايل `phone_17_pro_max.glb` وكومبات كروت وشاشات) كأرشيف zip | `C:\Users\Gimco Media 3\Documents\Cluade\New folder\Post-Production-Assets\Ultimate-Editors-2.0\Ultimate Editors 2.0 Updated\Dynamic 3D Editing Masterclass` (ملفين zip: `Copy of ad -1 phantom lessons.zip` و`Copy of phantom -4.zip`) | غير متحقق (الأسماء من جرد الفولدر) | [recipe-dynamic-3d-ui-scene](../After-Effects/recipe-dynamic-3d-ui-scene.md) الأقسام 6 و8 و9: بناء الكروت والموبايل يدوي |
-| موديلات `.glb` وتكستشرز المشهد (`apple_studio_display.glb`، `phone_17_pro_max.glb`، كتاب low-poly، حيطة وخشب وأرضية وسما) | جوه المشروعين فوق أو بحث الصور | غير متحقق | أي موديل/تكستشر مرخّص |
-
-`<فولدر موديول اللوك>` فولدر واحد جوه فولدر الكورس في `Downloads`. اسمه ومساره الحرفي في صف مصدره في جدول المصادر في [INDEX](../INDEX.md)، لأن أسماء المصادر مكانها هناك بس.
-
-## ملفات مذكورة ومش متاحة في المصدر (ما اتنسختش)
-
-| الملف | كان بيستخدم في | البديل |
+## موجود على الجهاز (متحقق 2026-11-15)
+| المرجع | المكان | البديل لو مش موجود |
 |---|---|---|
-| `preset_catalog.csv` | الكتالوج الكامل لقيم بريستات بريمير | الأرقام الملخّصة في [preset-values](../Premiere/preset-values.md) |
-| `scripts\abdallah_build.jsx`، `abdallah_inspect.jsx`، `abdallah_snap.jsx`، `abdallah_postprocess.py`، `jobs.example.json` | البيلد الذكي للموجرتات | ممكن يكونوا في فولدر `Documents\Cluade` (غير متحقق). البديل: الوصفة اليدوية بالـUI |
-| `guava_batch.jsx`، `guava_rebrand_text.jsx`، `guava_export_only.jsx`، `guava_add_outro.jsx`، `guava_smart.jsx`، `guava_controls.jsx`، `postprocess.py` | دفعات الموجرت القديمة | نفس اللي فوق |
-| `GIM_Analyze_Project.jsx`، `<سكربت تحليل بروجيكتات الدروس>.jsx` | قراءة مشروع AE مفتوح | فتح المشروع وقراءة الكومبات يدوي |
-| `ProximityPro.jsx`، `_MahmoudPresets.jsx` | اسكربتات طرف تالت | الفكرة اليدوية في ملفاتهم |
+| مكتبة عناصر UI (SaveObjects): Motions Essences، Wife، vahid_graph، Abdallah Mogrts، Text Presets وغيرهم | `<DOCS>\SaveObjects_Assets` | Shape Layers + Inertia ([rhythm-easing-expressions](../After-Effects/rhythm-easing-expressions.md)) |
+| Polite After Pro | `<DOCS>\Polite After Pro` | Whisper للتفريغ، Lumetri للجريد |
+| Captioneer | `<DOCS>\Captioneer` | Captions panel في بريمير من SRT |
+| فولدر شغل الموجرتات (مكتوب `Cluade`، وفيه `scripts` و`work` و`templates` و`reports`) | `<DOCS>\Cluade` | الوصفة اليدوية ([build-methods](../MOGRT/build-methods.md)) |
+| بريستات حركة الأيقونات (Mahmoud's Presets: scale وposition) | `<AE>\Presets\Mahmoud's Presets` (متسطبة؛ نسخة الديسكتوب اتشالت) | Scale/Position keyframes + Inertia |
+| بريستات Trend 2026 | `<AE>\Presets\Trend 2026` (متسطبة؛ نسخة الديسكتوب اتشالت) | الإكسبريشنز في [trend-2026-presets](trend-2026-presets.md) |
+| Presetify (بانل) | `<AE>\Scripts\ScriptUI Panels` | `loopOut("cycle")`، حفظ Preset يدوي |
+| Highlighter 2.0 (بانل بوكس وكيرسر وموجرت) | `<AE>\Scripts\ScriptUI Panels\Highlighter.jsxbin` (فيه نسختين، تتشال واحدة) | شيب بـ `sourceRectAtTime()` + Trim Paths ([highlighter](highlighter.md) القسم 10) |
+| Un-PreCompose | `<AE>\Plug-ins` (متسطب 2026-11-11) | نسخ لاير النص يدوي، أو Un-precompose في Motion Tools Pro |
+| باك موجرتات Highlighter النهائي (9 موجرتات `Abdallah Mogrts - …`) والبروجيكت `HLX_Mogrts_v01.aep` | `<ASSETS>\Highlighter-MOGRTs` (اتصدّروا من افتر 2027، ما اتجربوش في بريمير؛ محتاجين thmanyah sans وAmira Typo) | الطريقة في [highlighter](highlighter.md) وMOGRT/build-methods |
+| Morpho.jsx (بانل تجميع عناصر في هدف) | جوه الريبو: `Tools-and-Presets/scripts/Morpho.jsx` (متسطب في افتر: مش متحقق) | Position منحني + Overshoot ([morphing](../After-Effects/morphing.md)) |
 
-## ملفات اتنسخت للمكتبة
-محتوى نصي بس (الوصفات والقواعد) اتنقل من فولدر المصدر. مفيش ملفات تانية في المصدر غير SKILL.md وملفات الذاكرة، فمفيش ملفات فعلية اتنسخت.
+## ملفات تسطيب لسه في Downloads (تتنقل لـ `<ASSETS>\Installers`)
+| الفولدر | يتنقل لـ |
+|---|---|
+| `Presetify by KuldeepMP4` | `<ASSETS>\Installers\Presetify by KuldeepMP4` |
+| `Tut\Highlighter v2.0.0 Win + Mac` | `<ASSETS>\Installers\Highlighter v2.0.0 Win + Mac` |
+| `unprecompose_v1.1.5` | `<ASSETS>\Installers\unprecompose_v1.1.5` |
 
-| الملف | المكان في المكتبة | الحالة |
+بعد النقل يتشال الجدول ده، وكل ملفات التسطيب يبقى مكانها `<ASSETS>\Installers`.
+
+## على درايف H (مش متحقق من الجلسة)
+| المرجع | المكان | البديل |
 |---|---|---|
-| Morpho.jsx (بانل تجميع عناصر في هدف) | `Tools-and-Presets/scripts/Morpho.jsx` | اتنسخ للمكتبة. متسطب في افتر: غير متحقق |
+| باك BLADE للمونتاج وSFX | `<H>\Courses\Editing\Eng\كورس مونتاج\04-BLADE_Editing_Pack\BLADE SFX` | Openverse أو أي مكتبة صوت مرخّصة |
+| Morph Studio (ملفات وفيديو وSRT) | `<H>\montage\After Effects Assets\Tools by Function\Morphing\Morph Studio V1.0.0` | Position منحني + Overshoot |
+| باك Apple PF Pack V2 (31 بروجيكت) | `<H>\montage\After Effects Assets\Project Files\2026 project\Apple PF Pack V2` | القيم المكتوبة في [recipe-clean-apple-style](../After-Effects/recipe-clean-apple-style.md) |
+| ProximityPro v2.0 | `<H>\montage\After Effects Assets\Tools by Function\Expressions & Automation\ProximityPro v2.0 Win + Mac` | الفكرة اليدوية في [proximity-interaction](proximity-interaction.md) |
 
-## أصول تسجيلات الشغل الحقيقي (غير متحقق)
-| المرجع | المسار | الحالة | البديل |
-|---|---|---|---|
-| فولدر بي-رول الشورت السينمائي (25 ملف: لقطات شغل وتعب وارتياح وإطلالات) | فولدر `cinematic footage` على سطح مكتب جهاز التسجيل، داخله `Broll stock` | غير متحقق | ستوك أو تصوير ([recipe-cinematic-broll-short](../Premiere/recipe-cinematic-broll-short.md) قسم 6) |
-| فولدر مزيكا «viral songs» (حوالي 23 ملف) ونسخته على درايف | Google Drive: `Ultimate Editors 2.0 > Viral Songs`، وفي بريمير `sound effects library > risers and hits > Viral Songs` | غير متحقق. الترخيص غير ظاهر | مزيكا مرخصة |
-| باك SFX (بينات whoosh وrisers and hits وclicks وpops وgears وUI وtextures، ملفات `ES_...`) | مجلد `sound effects library` في بروجيكت بريمير | غير متحقق | مكتبة SFX بالاشتراك |
-| فولدر `assets` للمينيمال (29 ملف: ورق وتكستشرز وأوفرلاي ظلال وأوبجكتات شبه 3D) | داخل بروجيكت «Viral 2026 Short» | غير متحقق | Envato أو تكستشر مصنوع |
-| ملف مشروع التفكيك (سلسلة 30 أنيميشن، الحلقتين 1 و2 ومعاهم قالب كومب 10 ث) | `30 Viral Breakdowns Project File.aep` | غير متحقق | الوصفة في [recipe-minimal-ui-and-realtime-builds](../After-Effects/recipe-minimal-ui-and-realtime-builds.md) (القسم 5) |
-| ملف مشروع افتر لستايل صانع المحتوى (كومب Linked 150+ لاير) | `how to edit like me\after effects project for my style.aep` | غير متحقق | الوصفة القسم 3 |
+لو الدرايف اتشال أو الملفات مش عليه: يتشال الصف، أو الفولدر يتنقل لـ `<ASSETS>` ويتحدّث مساره هنا.
 
-## مشاريع افتر الجاهزة اللي جوه أرشيفات الكورس: فيها إيه (مقروءة من الملفات، 2026-11-10)
-كل الملفات جوه zip في فولدر الموديول بتاعها (فكّه في فولدر جنبه قبل الفتح). الإفكتات اتقرت من ملف المشروع نفسه، يعني لو بلاجن مش متسطب هيظهر «Missing» لما تفتح.
+## أصول الكورس في `<ASSETS>\Ultimate-Editors-2.0`
+فولدر لوك الست الغامق: `<ASSETS>\Ultimate-Editors-2.0\Ultimate Editors 2.0 Updated\Devin Jatho Masterclass + Saas Animation modules\Devin Jatho Editing Masterclass`. الملفات اتعرفت من جرد الفولدر (الأرشيفات ما اتفكتش).
+
+| الملفات | المكان | البديل |
+|---|---|---|
+| لوك الست الغامق، النص: `Text Save.aep` (كابشن تقيل، كلمة خاصة، لمعة، أشعة، تكسير) | `Text Animation-20251005T102014Z-1-001.zip` في فولدر اللوك | [recipe-dark-ui-talking-head](../After-Effects/recipe-dark-ui-talking-head.md) (القسم 4) |
+| لوك الست الغامق، الهوكات: `Main Project.aep` وأيقونات PNG (`Resources\`) | `Hook Animations-20251005T102737Z-1-001.zip` في فولدر اللوك | نفس الوصفة (القسم 5) |
+| لوك الست الغامق، أنيميشنز الجسم: عجلة الاختيار، Special Effects، Quora UI، Instagram UI، 3D Reel + `iphone_12_pro.glb` | `Body Animations-20251005T110628Z-1-001.zip` في فولدر اللوك | نفس الوصفة (القسم 6) |
+| صفحة لوحة الستايل لنفس اللوك (docx) | فولدر اللوك | الطريقة في [reference-analysis](../Editorial/reference-analysis.md) (لوحة الستايل) |
+| باك SFX الشورت السينمائي (25 ملف: أمبيانس، درونز، كليكات ميكانيكية، risers وhits وwhooshes). ملفات من مكتبة باشتراك: ترخيصها يتراجع قبل أي استخدام تجاري | `<ASSETS>\Ultimate-Editors-2.0\4 Cinematic Short-Film Editing Style\23 - Sound Design Theory` | مكتبة الصوت في [sound-design](../Premiere/sound-design.md) |
+| مشروعين إعلان 3D مرجعيين (`Copy of ad -1 phantom lessons.zip` و`Copy of phantom -4.zip`، فيهم `phone_17_pro_max.glb`) | `<ASSETS>\Ultimate-Editors-2.0\Ultimate Editors 2.0 Updated\Dynamic 3D Editing Masterclass` | [recipe-dynamic-3d-ui-scene](../After-Effects/recipe-dynamic-3d-ui-scene.md) (الأقسام 6 و8 و9) |
+
+الـB-roll والستوك وخامات التمرين ومزيكا الكورس اتمسحوا (2026-11-10): في الشغل الفعلي خامة العميل أو ستوك ومزيكا مرخّصين.
+
+### مشاريع افتر اللي جوه الأرشيفات: فيها إيه (مقروءة من ملفات المشاريع)
+فكّ الأرشيف في فولدر جنبه قبل الفتح. لو بلاجن مش متسطب هيظهر «Missing».
 
 | المشروع (الأرشيف) | بيبني إيه | إفكتات وبلاجنز جواه | لازم يكون متسطب |
 |---|---|---|---|
@@ -102,12 +83,28 @@
 | 3D Iphone (Body Animations) + iphone_12_pro.glb | موبايل 3D بكروت | 4-Color Gradient، Noise، Hue/Saturation، CC Light Sweep، CC Vignette، Deep Glow، كاميرا بعمق ميدان | Deep Glow، افتر بيدعم موديلات 3D (GLB) |
 | Devin Instagram UI (Body Animations) | مشهد بروفايل التطبيق | Luma Key، Invert، Tint، Drop Shadow، CC Radial Fast Blur، CC Vignette، Deep Glow | Deep Glow |
 | Quora UI animation (Body Animations) | بار البحث والموقع | Linear Wipe، Roughen Edges، Tint، CC Light Sweep، CC Radial Fast Blur، CC Vignette، Deep Glow | Deep Glow |
-| phantom ad -1 (فولدر الـ 3D) + phone_17_pro_max.glb | إعلان 3D 30 ثانية | Deep Glow 2، BOUNCr، BCC Halftone، Sapphire (S_QuadTone، S_Vignette)، Tritone، Glow، Drop Shadow، Box Blur، فيه Expression عدّاد بفواصل الآلاف | Deep Glow 2، BOUNCr، Boris BCC، Sapphire |
+| phantom ad -1 (فولدر الـ 3D) + phone_17_pro_max.glb | إعلان 3D 30 ثانية | Deep Glow 2، BOUNCr، BCC Halftone، Sapphire (S_QuadTone، S_Vignette)، Tritone، Glow، Drop Shadow، Box Blur، Expression عدّاد بفواصل الآلاف | Deep Glow 2، BOUNCr، Boris BCC، Sapphire |
 | phantom 4-1 (فولدر الـ 3D) | إعلان 3D تاني | زي اللي فوق + Sapphire S_Rays، Apply Color LUT، Curves، Minimax، Sharpen، Mesh Warp | زي اللي فوق |
 
-- **BCC و Sapphire متسطبين عنده (تأكيد المونتير 2026-11-10)**، ومعاهم Deep Glow 2 و BOUNCr، فمشاريع الـ 3D بتفتح كاملة. البدايل المدمجة لو اتنقل المشروع لجهاز تاني: CC Halftone بدل BCC Halftone، Tritone/Curves بدل S_QuadTone، CC Vignette بدل S_Vignette، CC Light Rays أو CC Radial Fast Blur بدل S_Rays.
-- **Expressions الباونس** في مشاريع الـ 3D مشفّرة (سكربت بريست)، فمش بتتقري كقيم؛ استخدم BOUNCr نفسه.
+- BCC وSapphire وDeep Glow 2 وBOUNCr متسطبين، فمشاريع الـ 3D بتفتح كاملة. البدايل لو المشروع اتنقل لجهاز تاني: CC Halftone بدل BCC Halftone، Tritone/Curves بدل S_QuadTone، CC Vignette بدل S_Vignette، CC Light Rays أو CC Radial Fast Blur بدل S_Rays.
+- Expressions الباونس في مشاريع الـ 3D مشفّرة (سكربت بريست)، فمش بتتقري كقيم؛ استخدم BOUNCr نفسه.
 
-## أصول الكورس اتنقلت (2026-11-10)
-- أصول الكورس اللي اتحفظت (مشاريع .aep في الـzips، وباك الـSFX) بقت في `C:\Users\Gimco Media 3\Documents\Cluade\New folder\Post-Production-Assets\Ultimate-Editors-2.0\` بنفس أسامي الفولدرات الأصلية. المسارات اللي فوق اتحدّثت عليه. فولدر الكورس الأصلي في Downloads ممكن يتمسح.
-- المونتير مسح الـB-roll والستوك وخامات التمرين ومزيكا الكورس (2026-11-10)، فمالهاش مسار. الوصفات بتوصفهم كأمثلة بس؛ في الشغل الفعلي استخدم خامة العميل أو ستوك مرخّص ومزيكا مرخّصة.
+## أماكن ثابتة في البرامج
+| إيه | المكان |
+|---|---|
+| موجرتات بريمير المتسطبة | `%AppData%\Adobe\Common\Motion Graphics Templates` |
+| كاش ميديا الموجرتات | فولدر `Motion Graphics Template Media` جنب بروجيكت بريمير |
+| إضافات CEP (بانلات زي Polite After Pro) | `C:\Program Files (x86)\Common Files\Adobe\CEP\extensions` |
+
+## فولدرات موجودة والملفات جواها ما اتشافتش
+الفولدر ظاهر في الجرد، بس أسماء الملفات مش ظاهرة. أول مرة تحتاج ملف منهم: اطلب الفولدر من الجهاز، ولو الملف مش موجود يتشال سطره ويفضل البديل.
+
+| الملف | مكانه | لو مش لاقيه |
+|---|---|---|
+| سكربتات بيلد الموجرت (`abdallah_build.jsx` و`abdallah_inspect.jsx` و`abdallah_snap.jsx` و`abdallah_postprocess.py`، وسكربتات `guava_*` القديمة) | `<DOCS>\Cluade\scripts` | الوصفة اليدوية بالـUI ([build-methods](../MOGRT/build-methods.md)) |
+| `GIM_Analyze_Project.jsx` (قراءة مشروع افتر من غير تعديل) | `<DOCS>\Personal` | قراءة الكومبات يدوي ([whole-reel-in-ae](../After-Effects/whole-reel-in-ae.md)) |
+| مكتبة برومبتات الترانزيشن `transition-prompts-library.txt` والصور المرجعية | `<DOCS>\Gimco_Motion_Skill\abdallah-generate` | [start-end-transitions](../Generation/start-end-transitions.md) |
+| كتالوج العناصر `asset-library.md` | `<DOCS>\Gimco_Motion_Skill` | [saveobjects-library](saveobjects-library.md) |
+
+## مالوش نسخة
+`preset_catalog.csv`، ونسخ مفكوكة من `ProximityPro.jsx` و`_MahmoudPresets.jsx`: مفيش نسخة متأكدين منها. البديل: الأرقام الملخّصة في [preset-values](../Premiere/preset-values.md)، والبريستات المتسطبة نفسها، وProximityPro الأصلي على درايف H.

@@ -1,7 +1,7 @@
 # بريستات حركة الأيقونات والتيتلز (Scale 1–16، Position 1–22)
 
 - **الاستخدام:** دخول أيقونة أو تايتل بنطّة: الطريقة المفضلة.
-- **المكان:** Desktop\Mahmoud's Presets + Effects & Presets في افتر
+- **المكان:** `<AE>\Presets\Mahmoud's Presets` (متسطبة، وبتظهر في Effects & Presets)
 - **المتطلبات:** البريستات
 - **البديل Native:** Scale/Position keyframes + Inertia
 - **الفهرس:** [INDEX](../INDEX.md)
@@ -12,7 +12,7 @@
 عبدالله بيحرك الأيقونات والكروت والنصوص دايمًا ببريستات محمود. **ممنوع نعيد عمل الحركة بإيدنا؛ نطبّق البريست الجاهز.** فهمنا للقيم تحت هو عشان نختار البريست الصح ونظبط المقاس والمكان.
 
 ### المكان والتطبيق
-- متسطّبة في AE: Effects & Presets > Animation Presets > Mahmoud's Presets (فولدرين scale وposition). المسار الفعلي: C:\Program Files\Adobe\Adobe After Effects 2026\Support Files\Presets\Mahmoud's Presets\scale\scale 2\scale.. 2.ffx (نفس الشكل لباقي البريستات). نسخة الديسكتوب اللي فيها فيديوهات الشرح مش دايمًا موجودة، فالسكربت مايعتمدش عليها.
+- متسطّبة في AE: Effects & Presets > Animation Presets > Mahmoud's Presets (فولدرين scale وposition). المسار الفعلي: `<AE>\Presets\Mahmoud's Presets\scale\scale 2\scale.. 2.ffx` (نفس الشكل لباقي البريستات).
 - يدوي: حط الـ CTI على لحظة الظهور، اختار اللاير، ودبل كليك على البريست من البانل.
 - سكربت: `comp.time = t; layer.selected = true; layer.applyPreset(File(".../scale.. 2.ffx"));` البريست بيتحط عند الـ CTI. لازم اللاير الوحيد المختار هو اللي عايزه.
 - في السكربت دوّر على الملف جوه `Folder.appPackage.fsName + "/Presets"` ومتكتبش مسار ثابت. **مهم:** `File.name` في ExtendScript بيرجع الاسم URI-encoded (scale..%202.ffx)، فقارن بـ `decodeURI(f.name)` أو `f.displayName`، وإلا مش هيلاقي الملف.

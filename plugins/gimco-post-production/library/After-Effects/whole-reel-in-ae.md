@@ -9,7 +9,7 @@
 ---
 
 ## أداة: تحليل أي مشروع AE مفتوح (قراءة فقط)
-- السكربت GIM_Analyze_Project.jsx (في Documents\Personal): File > Scripts > Run Script File. بيكتب ae_project_analysis.txt فيه كل كومب: اللايرز، المصدر، in/out، Parent، Blend، Track Matte، الترانسفورم، النصوص والفونت، الكيفريمات (وقت/قيمة/إيزنج)، الإكسبريشنز (أول 400 حرف)، وقيم الإفكتات. **مابيغيّرش أي حاجة** في المشروع.
+- السكربت `GIM_Analyze_Project.jsx` (مكانه المفروض `<DOCS>\Personal`، شوف [LOCATIONS](../Tools-and-Presets/LOCATIONS.md)): File > Scripts > Run Script File. لو مش لاقيه: افتح المشروع واقرا الكومبات يدوي، أو اكتب سكربت قراءة بنفس الفكرة. بيكتب ae_project_analysis.txt فيه كل كومب: اللايرز، المصدر، in/out، Parent، Blend، Track Matte، الترانسفورم، النصوص والفونت، الكيفريمات (وقت/قيمة/إيزنج)، الإكسبريشنز (أول 400 حرف)، وقيم الإفكتات. **مابيغيّرش أي حاجة** في المشروع.
 - أكواد مفيدة في الملف: mode 5212 = Normal، matte 5012 = بدون، 5013 = Alpha Matte، "(isMatte)" = لاير ماتّ. B17%/L17% = نوع الإيزنج (Bezier/Linear) والـ influence.
 
 ## خدع اتعلمناها في الدمج مع بريمير

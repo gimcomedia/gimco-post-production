@@ -28,10 +28,9 @@
 
 ## أول دقيقة: اختار الطريق
 1. **حدد الجهاز:** `get_device_info`.
-   - **جهاز الشغل** (`desktop-0619ej8`): فولدر الشغل **`C:\Users\Gimco Media 3\Documents\Cluade`** (مكتوب `Cluade`) — اطلبه على طول.
-   - **abdal:** `C:\Users\abdal\OneDrive\Desktop\Claude\Mogrt Guava Output\`.
+   - **جهاز الشغل** (`desktop-0619ej8`): فولدر الشغل **`<DOCS>\Cluade`** (مكتوب `Cluade`، المسار في LOCATIONS) — اطلبه على طول.
    - غير كده → اسأل سؤال واحد على مكان فولدر السكربتات وضيفه هنا.
-2. **صلاحيات مرة واحدة:** `device_request_folder_access` للفولدر + `computer_resolve_access` لـ "Adobe After Effects 2026" بـ `clipboardWrite`+`clipboardRead`، وبعدين `computer_request_access` بنفس الفلاجز. لو هتجرّب في بريمير ضيف "Adobe Premiere Pro 2026" في نفس الطلب.
+2. **صلاحيات مرة واحدة:** `device_request_folder_access` للفولدر + `computer_resolve_access` لـ After Effects بالإصدار المتسطب (حاليًا "Adobe After Effects 2027"، شوف `<AE>` في LOCATIONS) بـ `clipboardWrite`+`clipboardRead`، وبعدين `computer_request_access` بنفس الفلاجز. لو هتجرّب في بريمير ضيف Premiere Pro بالإصدار المتسطب في نفس الطلب.
 3. **اعرف المشروع:** زوم على الـtitle bar (مسار الـaep) + تابات التايملاين (الكومبيزشنز المقصودة غالبًا هي التابات المفتوحة).
 4. **الطريق:**
    - كومبيزشنز جوه مشروع مفتوح (شكل + نص) → **البيلد الذكي** (تحت).

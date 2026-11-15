@@ -9,7 +9,7 @@
 ---
 
 ## التفاعل بالقرب: عناصر بتتفاعل مع حاجة بتعدّي جنبها (ProximityPro v2.0)
-السكربت: `ProximityPro.jsxbin` (Panel، من Window). نسخة عبدالله في `H:\montage\After Effects Assets\Tools by Function\Expressions & Automation\ProximityPro v2.0 Win + Mac`. الكود اتفك واتقرا كله، والكلام ده من الكود نفسه مش من الشرح بس.
+السكربت: `ProximityPro.jsxbin` (Panel، من Window). نسخة على درايف H (مش متحقق): `<H>\montage\After Effects Assets\Tools by Function\Expressions & Automation\ProximityPro v2.0 Win + Mac`. الكود اتفك واتقرا كله، والكلام ده من الكود نفسه مش من الشرح بس.
 
 ### إمتى تستخدمه
 - عندك **صف أو شبكة عناصر** (أيقونات، كروت، حروف، نقط، أعراض، أسنان) و**حاجة واحدة بتتحرك** وسطهم (كيرسر، صباع، خط سكان، عدسة مكبّرة، نقطة ضوء، بوينت متتبّع على إيد الدكتور)، وعايز كل عنصر يتفاعل لوحده على حسب قربه منها.

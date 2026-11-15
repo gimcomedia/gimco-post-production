@@ -9,14 +9,14 @@
 ---
 
 ## الأماكن
-- فولدر الشغل: جهاز الشغل `C:\Users\Gimco Media 3\Documents\Cluade\` — abdal `C:\Users\abdal\OneDrive\Desktop\Claude\Mogrt Guava Output\`.
+- فولدر الشغل: `<DOCS>\Cluade` (الجذر في [LOCATIONS](../Tools-and-Presets/LOCATIONS.md)؛ فيه scripts وwork وtemplates وreports).
   - `scripts\abdallah_build.jsx` البيلد الذكي · `abdallah_inspect.jsx` الفحص · `abdallah_snap.jsx` السناب + اختبار الألوان · `abdallah_postprocess.py` · `jobs.example.json`
   - قديم ولسه شغال: `guava_batch.jsx` (دفعات الكاش)، `guava_rebrand_text.jsx`، `guava_export_only.jsx`، `guava_add_outro.jsx`، `guava_smart.jsx`، `postprocess.py`
   - ملفات تجارب 3 نوفمبر (ممكن تتمسح بموافقة عبدالله): `build_lesson-captions*.jsx`، `dump_*.jsx`، `snap_lesson-captions.jsx`، `snap_color.jsx`، `strip_lesson-captions.jsx`، `inspect_open.jsx`
   - `jobs.json` (في الفولدر الرئيسي) · `work\<اسم>\` · `templates\raw\` · `templates\vN\` · `reports\` (inspect.txt, batch\build_report.txt, snap\)
 - السكربتات بتحسب مكانها من `$.fileName` (فولدر الشغل = الأب بتاع scripts) فبتشتغل على أي جهاز.
-- مشاريع تليجرام: `Downloads\Telegram Desktop\<اسم المشروع>` — صدّر جنب المشروع لو مفيش فولدر شغل.
-- `Motion Graphics Template Media` = كاش بريمير (فولدرات GUID، في كل واحد `.aegraphic` = zip فيه `Untitled Project.aep` + `(Footage)` + `Thumbnails`، فيه نسخ مكررة زي `type numbers`)؛ ما نعدلش فيه. موجرتات بريمير المتسطبة: `AppData\Roaming\Adobe\Common\Motion Graphics Templates` (مرجع لفورمات جروبات شغالة: Arabic Sk Text Animations، captions_modern).
+- مشروع جاي على تليجرام بينزل في فولدر Telegram Desktop جوه Downloads: انقله لفولدر شغل قبل ما تبدأ، وصدّر جنبه.
+- `Motion Graphics Template Media` = كاش بريمير (فولدرات GUID، في كل واحد `.aegraphic` = zip فيه `Untitled Project.aep` + `(Footage)` + `Thumbnails`، فيه نسخ مكررة زي `type numbers`)؛ ما نعدلش فيه. موجرتات بريمير المتسطبة: `%AppData%\Adobe\Common\Motion Graphics Templates` (مرجع لفورمات جروبات شغالة: Arabic Sk Text Animations، captions_modern).
 
 ## سجل الموجرتات (زوّد بعد كل واحد/دفعة)
 | الموجرت | اللي اتعمل | الدرس |

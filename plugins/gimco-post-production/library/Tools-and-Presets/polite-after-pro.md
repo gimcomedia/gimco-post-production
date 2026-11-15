@@ -1,7 +1,7 @@
 # إكستنشن Polite After Pro
 
 - **الاستخدام:** Auto Edit، تفريغ عربي، حذف السكوت، جريد، iPhone HDR، ماسك وكيرسر، مكتبة Presets.
-- **المكان:** Documents\Polite After Pro (اسم الفولدر ظاهر)
+- **المكان:** `<DOCS>\Polite After Pro` (متحقق؛ الجذر في LOCATIONS)
 - **المتطلبات:** الإكستنشن مرخّص
 - **البديل Native:** Whisper للتفريغ، Lumetri للجريد، ماسكات يدوي
 - **الفهرس:** [INDEX](../INDEX.md)
@@ -124,5 +124,5 @@ Cursor on the selected layers: حدد اللايرز → حط الـ CTI عند 
 ## 14) حل المشاكل
 أول 6: إنترنت + سماح AfterFX.exe في Windows Firewall؛ جرّب بدون VPN/Proxy؛ شوف لو الأنتي فيرس عزل ملفات؛ نسخة حديثة من مصدر موثوق؛ أسماء الملفات والمسارات إنجليزي؛ JavaScript في File > Project Settings > Expressions لكل مشروع. ما نقفلش الحماية بالكامل، نعمل استثناء محدد.
 ترخيص: واقف على License Checking → اتأكد من النت واقفل/افتح البانل. could not be activated → الكود من غير مسافات، إيميل الشراء، مش كود X Pro. التفعيلات خلصت/غيرت ويندوز → الدعم يحرر الجهاز. 0 days → جدّد من My Services. باقة مقفولة والترخيص شغال → نفس الإيميل، أو الدعم.
-تثبيت/بانل: مش ظاهر → اقفل افتر من Task Manager، افتر 2019+، شوف Extensions (Legacy). أبيض/فاضي → الأنتي فيرس وأعد التثبيت. بيهنّج → حدّث افتر، وقف إضافات CEP قديمة، Reset Preferences (Ctrl+Alt+Shift عند الفتح). اختفى → Window > Workspace > Reset to Saved Layout. العربي مفكك → Preferences > Type > Text Engine > South Asian and Middle Eastern وأعد التشغيل. مسار الإضافات: C:\Program Files (x86)\Common Files\Adobe\CEP\extensions.
+تثبيت/بانل: مش ظاهر → اقفل افتر من Task Manager، افتر 2019+، شوف Extensions (Legacy). أبيض/فاضي → الأنتي فيرس وأعد التثبيت. بيهنّج → حدّث افتر، وقف إضافات CEP قديمة، Reset Preferences (Ctrl+Alt+Shift عند الفتح). اختفى → Window > Workspace > Reset to Saved Layout. العربي مفكك → Preferences > Type > Text Engine > South Asian and Middle Eastern وأعد التشغيل. مسار إضافات CEP مكتوب في [LOCATIONS](LOCATIONS.md).
 مكتبة: Expression Error → JavaScript + Allow Scripts to Write Files and Access Network. Missing Effects → ثبّت البلجنز المطلوبة (Deep Glow 2، Shadow Studio 3). Extract فشل → مساحة + امسح التحميل الجزئي وأعد. باقة مش ظاهرة → Reload Folders + نفس مسار Packages. البحث مش لاقي → افتح الفولدر مرة. افتر بيقفل مع Preset تقيل → Purge All Memory & Disk Cache وAdjustment Layer. بطء → Limit waveforms، اقفل Live preview، Clear Cache.

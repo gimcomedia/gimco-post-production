@@ -296,5 +296,5 @@ Object Selection للعزل بضغطة، و Unmult، و Camera Lens Blur (فوك
 | Flicker | `text flicker.ffx` | Opacity بإكسبريشن `random(value,100)`: وميض عشوائي | لحظة واحدة بس (هوك أو كلمة)؛ صاخب على ذوقنا لو طوّل |
 
 - **الطريقة:** اختار لاير النص ← دوس الزرار ← البريست بيتحط عند الـ CTI؛ حرّك أو مط كيفريمات الـ Offset عشان تظبط السرعة. انسخ الحركة لباقي اللايرات بنسخ الأنيميتر (Copy/Paste) بدل ما تدوس على كل لاير.
-- **التسطيب:** محتويات الفولدر كلها (`Presetify.jsxbin` + فولدر `icons` + فولدر `presets`) جوه `C:\Program Files\Adobe\Adobe After Effects 2027\Support Files\Scripts\ScriptUI Panels\` (الـ jsxbin بيدوّر على الفولدرين جنبه)، وبعدين Edit > Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network، وافتحه من قايمة Window.
+- **التسطيب:** محتويات الفولدر كلها (`Presetify.jsxbin` + فولدر `icons` + فولدر `presets`) جوه `<AE>\Scripts\ScriptUI Panels\` (الـ jsxbin بيدوّر على الفولدرين جنبه)، وبعدين Edit > Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network، وافتحه من قايمة Window.
 - **Native:** نفس البريستات ينفع تتطبق من غير البانل: Animation > Apply Animation Preset على ملف الـ `.ffx`.

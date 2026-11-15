@@ -48,7 +48,7 @@
 | شكلين بسيط بنفس عدد النقط تقريبًا | Shape Path يدوي (Copy Path → Paste) | أسرع من أي أداة |
 
 ### Morph Studio (Jera، إكستنشن CEP، AE 22 وأحدث)
-**مش متسطب عندك لسه.** الملفات والفيديو والـ SRT بتاعه في `H:\montage\After Effects Assets\Tools by Function\Morphing\Morph Studio V1.0.0`.
+**مش متسطب عندك لسه.** الملفات والفيديو والـ SRT بتاعه على درايف H (مش متحقق): `<H>\montage\After Effects Assets\Tools by Function\Morphing\Morph Studio V1.0.0`.
 
 **بيقبل:** SVG، وShape Layers، وText Layers، وملفات Illustrator. يعني أي حاجة افتر يقدر يعمل منها Shapes (للنص والـ AI: Create Shapes from Text/Vector Layer الأول لو احتجت).
 

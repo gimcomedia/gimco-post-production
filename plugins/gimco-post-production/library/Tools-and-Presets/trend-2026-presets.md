@@ -9,7 +9,7 @@
 ---
 
 ## بريستس Trend 2026 (صاحب الباك): عبدالله بيحبها جدًا
-متسطّبة في AE: `Effects & Presets > User Presets > Trend 2026 - صاحب الباك`، والمصدر الأصلي `Desktop\Trend 2026`. محتاجة **Deep Glow 2** و**Sapphire** (موجودين عنده).
+متسطّبة في AE: `Effects & Presets > User Presets > Trend 2026 - صاحب الباك`، ومكانها `<AE>\Presets\Trend 2026`. محتاجة **Deep Glow 2** و**Sapphire** (موجودين عنده).
 
 | البريست | فيه إيه | يتحط على | امتى نستخدمه في ريل الدكتور |
 |---|---|---|---|

@@ -14,7 +14,7 @@ Goal: everything Claude makes opens as native, editable layers in AE or clips in
 
 ## After Effects: write a .jsx that builds the comp
 
-Delivery: one `.jsx` file per job. The editor runs it from File > Scripts > Run Script File. In a Claude Code session on the editor's Windows machine, Claude may run it directly: `"C:\Program Files\Adobe\Adobe After Effects <version>\Support Files\AfterFX.exe" -r "<full path>\script.jsx"` (check the installed version folder first).
+Delivery: one `.jsx` file per job. The editor runs it from File > Scripts > Run Script File. In a Claude Code session on the editor's Windows machine, Claude may run it directly: `"<AE>\AfterFX.exe" -r "<full path>\script.jsx"` (`<AE>` is defined in Tools-and-Presets/LOCATIONS; check the installed version folder first).
 
 Script rules:
 - Wrap everything: `app.beginUndoGroup("Claude - <name>"); ... app.endUndoGroup();` so one Ctrl+Z removes it. Use ExtendScript (ES3): `var`, no arrow functions, no `let`/`const`, no template strings.

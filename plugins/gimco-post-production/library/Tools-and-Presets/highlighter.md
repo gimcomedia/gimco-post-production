@@ -1,7 +1,7 @@
 # Highlighter (بوكس تحديد + كيرسر على أي كلمة أو صورة، ويتصدّر موجرت)
 
 - **الاستخدام:** تحديد كلمة أو سطر أو رقم أو صورة ببوكس وكيرسر شبه تحديد النص في الموبايل (خطين رفيعين في آخرهم دواير)، بيتظبط لوحده على المصدر ويفضل متظبط لو النص اتغيّر. كمان أيقونات مربوطة بأركان البوكس، وموجرت بريمير جاهز بضغطة.
-- **المكان:** سكربت ScriptUI (بانل) جوه افتر: `Highlighter.jsxbin` في `…\Support Files\Scripts\ScriptUI Panels\`، ويتفتح من Window. النسخة 2.0.0 عند المونتير (الأصل في `Downloads\Tut\Highlighter v2.0.0 Win + Mac`).
+- **المكان:** سكربت ScriptUI (بانل) جوه افتر: `Highlighter.jsxbin` في `<AE>\Scripts\ScriptUI Panels\`، ويتفتح من Window. النسخة 2.0.0، وملف التسطيب مكانه `<ASSETS>\Installers\Highlighter v2.0.0 Win + Mac`.
 - **المتطلبات:** Highlighter 2.0 (بيدعم AE من 2022 لحد **2027**، حسب صفحة المنتج) · Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network
 - **البديل Native:** شيب Rectangle مربوط بـ `sourceRectAtTime()` + خطين ودايرتين بـ Trim Paths (القسم 10)
 - **الفهرس:** [INDEX](../INDEX.md)

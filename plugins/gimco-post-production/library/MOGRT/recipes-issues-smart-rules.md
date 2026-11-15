@@ -39,7 +39,7 @@
 - الـcommit لازم من `/mnt/user-data/outputs/`. افحص أي jsx بـ `node -e "new Function(...)"` قبل ما تبعته (تعليق `//` قفّل `}` مرة)، و py بـ `py_compile`.
 - بعد التصدير ما تلمسش AE objects في نفس السكربت (اكتب التقرير قبله). ما تفتحش Undo group جوه حاجة فاتحة واحد.
 - File Explorer مسموح كليك بس → افتح الملفات من حوار Open جوه AE. حوار Run Script File: الأضمن خانة File name + المسار الكامل.
-- إضافة Guava القديمة (`AppData\Roaming\Adobe\CEP\extensions\com.abdallahfilm.mogrtguava`) مرجع أفكار؛ لو بانلها مفتوح بيوسّخ المشروع → يتقفل.
+- إضافة Guava القديمة (`%AppData%\Adobe\CEP\extensions\com.abdallahfilm.mogrtguava`) مرجع أفكار؛ لو بانلها مفتوح بيوسّخ المشروع → يتقفل.
 - صلاحية التحكم بتنتهي بعد 30 دقيقة → resolve + request تاني. **آخر الشغل: `computer_release_lock`.**
 
 ## قواعد ذكية (اتعلمناها)

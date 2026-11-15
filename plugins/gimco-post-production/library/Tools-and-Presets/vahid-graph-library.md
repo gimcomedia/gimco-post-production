@@ -16,11 +16,11 @@
   1. ابدأ بفهرس "حسب الاحتياج" (القسم 3).
   2. اقرا وصف العنصر في القسم 4.
   3. لو محتاج تتأكد من الشكل، اعمل stage للـ `.gif` بتاعه من فولدره على جهاز عبدالله وبُصّ عليه.
-- نسخة من الكتالوج ده محفوظة كمان عند عبدالله في `C:\Users\abdal\Documents\SaveObjects_Assets\vahid_graph\CATALOG_vahid_graph.md`.
+- نسخة من الكتالوج ده جوه فولدر المكتبة نفسه: `<DOCS>\SaveObjects_Assets\vahid_graph\CATALOG_vahid_graph.md`.
 - لو اتضافت عناصر جديدة في الفولدر: اعمل list للفولدر، وحلّل الجديد (المعاينة GIF + الـ .aep)، وحدّث الكتالوج والسكيل.
 - الطريقة: Replace بس (الصورة والنص واللون والتوقيت) حسب المشروع. متبنيش العنصر من جديد.
 
-المكان: `C:\Users\abdal\Documents\SaveObjects_Assets\vahid_graph\` وفيه 4 فولدرات: Animation (61) و Box (20) و Background (10) و Motion (10).
+المكان: `<DOCS>\SaveObjects_Assets\vahid_graph\` وفيه 4 فولدرات: Animation (61) و Box (20) و Background (10) و Motion (10).
 كل عنصر في فولدر باسمه، وفيه: `.aep` و `.gif` معاينة و `.png` و `(Footage)` و `Fonts`.
 الستايل بتاع صاحب الباك صاحب الباك. اتعمل الكتالوج ده من الـ 101 معاينة GIF، ومن تحليل كل ملف .aep (الكومبات والطبقات والإفكتات والإكسبريشنز).
 
