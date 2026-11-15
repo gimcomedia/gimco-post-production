@@ -31,7 +31,7 @@
   - setValueAtTime على Time Remap بعد ما تمسح كل الكيز → error "property hidden". (ومع ذلك: ما تستخدمش time remap للهولد.)
 - **التصدير:** `exportAsMotionGraphicsTemplate(true, folder)` بياخد فولدر. صدّر بالـitemByID بعد الحفظ. `app.beginSuppressDialogs()` وإلا الدايالوجز توقف.
 - **نقل الملفات (مهم):** `device_commit_files` لنفس المسار **ساعات بيكتب نسخة قديمة** (اتكرر 3 مرات وشغّل سكربت قديم). **بعد كل commit اعمل `device_list_dir` وقارن الحجم بـ`wc -c`**؛ لو مختلف ابعت باسم جديد (`_v2`). نفس الشيء لملفات الموجرت: commit لفولدر جديد (`templates\v4`).
-- **Run Script File:** File > Scripts > Run Script File (إحداثيات جهاز الشغل على شاشة 1456×819: File (9,18) → Scripts (32,356) → Run Script File (225,356) → خانة File name (400,504) → Ctrl+A → Ctrl+V بالمسار → Enter). الـalert بيظهر في نص الشاشة → اقفله قبل اللي بعده. الـbatch يبقى انتظاره ≤ 50ث (الـbridge بيقطع عند 60).
+- **Run Script File:** File > Scripts > Run Script File → خانة File name → Ctrl+A → Ctrl+V بالمسار → Enter (خد سكرين شوت الأول، الأماكن بتتغير مع الشاشة). الـalert بيظهر في نص الشاشة → اقفله قبل اللي بعده. الـbatch يبقى انتظاره ≤ 50ث (الـbridge بيقطع عند 60).
 - **AE UI:** نافذة Claude بتغطي فوق يمين؛ بانل EGP لما يتكبّر الإحداثيات بتتغير (Add Formatting تحت شمال (58,777)، Add Group (22,765)، Add Comment (25,753)). سحب غلط ممكن يرسي تاب كومب جوه فريم EGP → اقفله من الـx بتاعه.
 - **بريمير:** Install Motion Graphics Template من Graphics and Titles. السحب من Graphics Templates للتايملاين من بعيد مااشتغلش (والنافذة بتغطي البانل) → عبدالله يجرّب بنفسه.
 - `saveFrameToPng(t, file)` بيصوّر فريم من الكومب (للسناب) — أسرع من الريندر.

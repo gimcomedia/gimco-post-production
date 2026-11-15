@@ -1,7 +1,7 @@
 # كتالوج مشاهد جاهزة للريبليس (vahid_graph)
 
 - **الاستخدام:** كروت، عدادات، شارتات، أسئلة، بروفايل، أسهم، صح/غلط، خلفيات.
-- **المكان:** جوه SaveObjects_Assets (المسار القديم لجهاز تاني في الملف)
+- **المكان:** `<DOCS>\SaveObjects_Assets\vahid_graph` (متحقق؛ الجذر في LOCATIONS)
 - **المتطلبات:** After Effects + Deep Glow
 - **البديل Native:** نفس منطق البناء (Animation Control + sourceRectAtTime) يدويًا
 - **الفهرس:** [INDEX](../INDEX.md)
