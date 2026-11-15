@@ -71,7 +71,7 @@
 ### كتابة وظهور وخطوط
 - **AutoFill 2:** بيملا حدود الشكل كأنه مية بتجري وبتتفادى الشفاف. حدد نقطة البداية (Growth Origin) وشغّل. بيشتغل على أي حاجة ليها Alpha (شيب، نص، PNG)، مش JPG. فيه Speed Map للتحكم في السرعة، و Style Builder لطبقات ملا كتير فوق بعض. مثالي للخطوط والرسومات والخرايط والأيقونات الخطية.
 - **CenterLine:** بيطلّع خط واحد من نص الرسمة (Skeleton) من أي صورة أو نص. اضغط Create Shape Layer وبعدين Trim Paths = كتابة بخط اليد من لوجو أو توقيع أو سكيتش.
-- **Highlighter:** بوكس متظبط على أي كلمة أو صورة + كيرسر متحرك. ينفع يتصدّر موجرت. **عندك نسختين في ScriptUI Panels، شيل واحدة.**
+- **Highlighter 2.0 (متسطب):** بوكس متظبط على أي كلمة أو صورة + كيرسر شبه تحديد الموبايل، وأيقونات مربوطة بالأركان (Choose Box)، ويتصدّر موجرت بضغطة (Shift + Control). الشرح الكامل والطريقة: [highlighter](highlighter.md). **عندك نسختين في ScriptUI Panels، شيل واحدة.**
 - **Trapcode 3D Stroke:** ستروك 3D على ماسك بيتحرك مع الكاميرا.
 
 ### ارتداد ونص بضغطة (BOUNCr، Presetify)
@@ -125,6 +125,7 @@
   - **كاميرا ونور:** بيستخدم كاميرا ونور الكومب أوتوماتيك (Ambient + Parallel كفاية كبداية). لو شلت الصح من جروب Camera / Lights، هتشتغل بكاميرا ونور جوه الإفكت.
   - **أداء:** بيرندر على الـ GPU (Vulkan / Metal) وبيدعم 32-bit و Multi-Frame Rendering. Supersampling هو أتقل حاجة فيه. من 1.2.0 فيه Render Passes (Depth / Normals / UV).
   - **Native لو مش موجود:** CC Page Turn (قلب صفحة)، و CC Cylinder (لف)، و CC Bend It (انحناء). الكارت اللي بيتفتح: كل جزء في بري-كومب 3D لوحده، الـ Anchor على خط الطي، و Rotation Y بالـ Parent على الجزء اللي قبله.
+  - **متسطب (قرار المونتير):** Foldspace عند المونتير. صفحة المنتج بتكتب دعم لحد AE 2026 وهو شغال على 2027: اتأكد من الإصدار لو ما حمّلش. الوصفات بقيمها (لافتة بتتفرد، ريبون، ورقة بتتقشّر، ظل 1.4 وShadow Catcher، Time Offset): [foldspace](foldspace.md).
 - **FoldCraft:** طي ورق (Paper Fold) لنص أو صورة أو فيديو بالاتجاه والتوقيت. ينفع ترانزيشن أو ظهور كارت.
 - **مجانًا:** CC Cylinder (Fold Angle) لطي بسيط.
 
@@ -196,7 +197,7 @@
 - **Native لو مفيش:** فولدر صور على الجهاز متقسم بالستايل والعميل، والاسكتش ورقة وقلم متصورة جنب السكريبت.
 
 ### فك البري-كومبات وأزرار السرعة (Un-PreCompose، بانل أزرار)
-- **Un-PreCompose (بلاجن مجاني بسعر اختياري، مش متسطب بقرار المونتير 2026-11-10):** بيطلّع لايرات كل البري-كومبات المحددة للكومب الرئيسي مرة واحدة (كابشن بريمير Upgrade Caption to Graphic لما بيتنقل لافتر). التسطيب: الملف في فولدر Plug-ins بتاع افتر وإعادة تشغيل. صفحته على aescripts بسعر مكتوب وخانة «اختار سعرك» (ينفع صفر).
+- **Un-PreCompose (بلاجن مجاني بسعر اختياري، متسطب، تحديث المونتير 2026-11-11):** بيطلّع لايرات كل البري-كومبات المحددة للكومب الرئيسي مرة واحدة (كابشن بريمير Upgrade Caption to Graphic لما بيتنقل لافتر). التسطيب: الملف في فولدر Plug-ins بتاع افتر وإعادة تشغيل. صفحته على aescripts بسعر مكتوب وخانة «اختار سعرك» (ينفع صفر).
   - **الطريقة الأساسية والروتين الكامل (دايالوج، رص، Anchor، Shy):** [whole-reel-in-ae](../After-Effects/whole-reel-in-ae.md) («كابشن جاي من بريمير كلمة كلمة»). Native: نسخ لاير النص يدوي، أو Un-precompose في Motion Tools Pro ([rhythm-easing-expressions](../After-Effects/rhythm-easing-expressions.md)).
 - **بانل أزرار سريعة (EZ Tools في المصدر):** أزرار لإنشاء Solid و Shape و Null و Adjustment Layer، و Easy Ease، ونقل اللاير ±5 و10 و15 فريم، وإفكتات بضغطة (Fill، Tint، Blur، Glow، Ramp، Curves). ظاهر في الشغل ومش مشروح، و**غير متحقق عندنا**. اللي بيغطيه عندنا: Motion Tools Pro و Polite After Pro.
   - فيه كمان شبكة 3×3 لنقل الـ Anchor (اتستخدمت لتوسيط أنكور لايرات الكابشن بعد الفك)، وأزرار Duplicate و Split و Pre-compose. ظهرت صفحة تنزيله عند AEJuice كبانل مجاني، والمصدر نفسه مش متأكد من صاحبه. Native لتوسيط الأنكور: Ctrl+Alt+Home، أو شبكة الأنكور في Motion Tools Pro.
@@ -246,7 +247,7 @@ Object Selection للعزل بضغطة، و Unmult، و Camera Lens Blur (فوك
 - وللّوك الغامق بكابشن تقيل و UI ([recipe-dark-ui-talking-head](../After-Effects/recipe-dark-ui-talking-head.md)): Radial Shadow من Perspective (ظل حاد قصير بإفكت واحد على لاير النص)، و Shatter من Simulation (تكسير زجاج لنص أو تايتل)، و CC Radial Fast Blur من غير تسويد (أشعة نور من كلمة أو أيقونة)، و CC Particle Systems II (نقط نور صغيرة من كارت)، و Layer Styles > Inner Glow أبيض (حافة كارت UI زجاجي)، و 4-Color Gradient على شيب أو أيقونة، و Tint لتلوين أيقونة سودا، و CC Vignette بقيمة موجبة واطية، و Separate Dimensions لمسار بلفّة.
 
 ### أدوات إضافية لقطعة المنتج البرمجي الكاملة ([recipe-product-ui-motion-piece](../After-Effects/recipe-product-ui-motion-piece.md) الأقسام 15–29)
-كلها **غير متحقق إنها متسطبة** إلا BOUNCr (متسطب)، و Presetify (مش متسطب بقرار المونتير 2026-11-10). البدائل Native في الوصفة.
+كلها **غير متحقق إنها متسطبة** إلا BOUNCr (متسطب)، و Presetify (متسطب، 2026-11-11). البدائل Native في الوصفة.
 - **Loopy (بانل):** Cycle على أنيميشن إيموجي. Native: `loopOut("cycle")`.
 - **Presetify وEZ Tools (بانلات):** حفظ Presets وأزرار سريعة. Native: حفظ Animation Preset يدوي.
 - **باك Memoji وEmojipedia:** ستيكرز وإيموجي PNG. على ذوقنا: أيقونات خط من الباليتة.
@@ -279,4 +280,21 @@ Object Selection للعزل بضغطة، و Unmult، و Camera Lens Blur (فوك
 
 ## قرار المونتير: المتسطب عنده (2026-11-10)
 - **متسطب: BOUNCr و Animation Composer و Boris BCC و Sapphire و Deep Glow 2.** أي وصفة بتقول عنهم «غير متحقق» تتقري «متسطب». Animation Composer: اتأكد إن النسخة 3.8.7 أو أحدث (النسخ الأقدم عليها تحذير كراش في افتر).
-- **مش متسطب: Un-PreCompose و Presetify.** استخدم البديل اليدوي المكتوب جنب كل واحد (نسخ لاير النص من البري-كومب، أو Un-precompose في Motion Tools Pro؛ وبريستات افتر العادية أو بريستاته المتسطبة بدل Presetify).
+- **Un-PreCompose متسطب (تحديث المونتير 2026-11-11).** البديل لو اتعطل: نسخ لاير النص من البري-كومب، أو Un-precompose في Motion Tools Pro.
+- **غالبًا متسطبين (كلام المونتير 2026-11-11، مش متشافين):** Motion Tools (كلاسيك/Pro)، Flow، AEUX، Overlord، Copy Pasta، EZ Tools، Loopy، Smart Bounce، Morpho، Optical Flares، Trapcode (Particular/Form/Shine/Starglow)، Universe، Twitch، RSMB، Mocha، Magic Bullet، Topaz، Odometer، Crates Long Shadow، Captioneer، Whisper. استخدمهم على طول، ولو واحد ما ظهرش كمّل بالبديل Native المكتوب جنبه وقول في سطر.
+- **Presetify متسطب (مجاني، تحديث المونتير 2026-11-11):** تفاصيله وطريقة استخدامه في «Presetify: الاستخدام» تحت.
+
+## Presetify: الاستخدام (متسطب، مجاني)
+بانل ScriptUI بـ 7 أزرار، كل زرار بيطبّق بريست `.ffx` على اللاير المختار (اتقرت من ملفات البريست نفسها):
+| الزرار | البريست | بيعمل إيه | العربي |
+|---|---|---|---|
+| 1by1 | `1by1.ffx` | Text Animator بـ Range Selector: النص بيظهر وحدة وحدة | جرّبه على جملة: لو الوحدة حرف هيكسر الوصل؛ لو كلمة ينفع |
+| Word Down | `word down.ffx` | الكلمات بتنزل لمكانها واحدة ورا التانية | ينفع للعربي (حركة بالكلمة) |
+| Word Right | `word right.ffx` | الكلمات بتدخل من الجنب | اتأكد من الاتجاه: العربي بيتقري من اليمين، فلو الدخول بيبدأ بآخر كلمة اعكس الـ Range (Offset أو Direction) |
+| Character Down / Right | `character down/right.ffx` | نفس الفكرة حرف حرف | **ما تستخدمهوش على عربي متصل** (بيكسر الوصل)؛ للأرقام واللاتيني بس |
+| Bounce | `bounce text.ffx` | إفكت Transform عليه إكسبريشن Inertia بيتخمد (`amp/freq/decay` و`easeOut` على الآخر) على الكيفريمات اللي انت عاملها | ينفع على أي لاير؛ عدّل `amp` لحد ما يدّي الباونس بتاعنا (وسط وواضح وسموز) |
+| Flicker | `text flicker.ffx` | Opacity بإكسبريشن `random(value,100)`: وميض عشوائي | لحظة واحدة بس (هوك أو كلمة)؛ صاخب على ذوقنا لو طوّل |
+
+- **الطريقة:** اختار لاير النص ← دوس الزرار ← البريست بيتحط عند الـ CTI؛ حرّك أو مط كيفريمات الـ Offset عشان تظبط السرعة. انسخ الحركة لباقي اللايرات بنسخ الأنيميتر (Copy/Paste) بدل ما تدوس على كل لاير.
+- **التسطيب:** محتويات الفولدر كلها (`Presetify.jsxbin` + فولدر `icons` + فولدر `presets`) جوه `C:\Program Files\Adobe\Adobe After Effects 2027\Support Files\Scripts\ScriptUI Panels\` (الـ jsxbin بيدوّر على الفولدرين جنبه)، وبعدين Edit > Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network، وافتحه من قايمة Window.
+- **Native:** نفس البريستات ينفع تتطبق من غير البانل: Animation > Apply Animation Preset على ملف الـ `.ffx`.

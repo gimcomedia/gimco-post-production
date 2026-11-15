@@ -319,3 +319,8 @@ Math.round(val).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 - **مش لاقيينهم في فولدرات البلاجنز:** ToneCraft، Glassary، Chromabba، Glaze، Edge Controller، Crate's Godrays. لحد ما يتأكدوا، ماتبنيش وصفة عليهم.
 - **مش عنده:** Tapeify.
 - **أداة التحليل:** `<فولدر الدروس>\<سكربت تحليل بروجيكتات الدروس>.jsx` (قراءة فقط، المسارات جواه ثابتة). بيكتب `_analysis.txt` جنب كل بروجيكت.
+
+## لمعة على الشيبس/الكروت بس (CC Light Sweep → Cutout)
+- على شكل الشيب (Rounded Rectangle): **CC Light Sweep** ← **Light Reception: Cutout** (اللمعة بتظهر جوه الشكل بس من غير ما تفتّح الخلفية) ← Width ~302، Intensity ~45، Edge Intensity ~50، Thickness ~4 (نقط بداية).
+- كل الشيبس بنفس الارتفاع، ولونها من الكادر نفسه.
+- على ذوقنا: اللمعة تعدّي مرة واحدة وقت الدخول، وبـ Intensity أقل لو الخلفية فاتحة.

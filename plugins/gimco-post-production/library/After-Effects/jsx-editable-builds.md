@@ -30,6 +30,18 @@ Script rules:
 - Use expressions only when they make the comp easier to edit (e.g. a slider controlling all delays); comment them.
 - Finish with `comp.openInViewer();` and an `alert()` summary in English listing what was created.
 
+Lessons from real builds (Alaa Reel 2, AE 2027):
+- `layer.copyToComp(comp)` keeps the source layer's in/out points. After shifting the copy's `startTime`, set its `inPoint`/`outPoint` again, or it can vanish mid-shot.
+- Keyframe times are comp time and travel with `startTime`: shifting a layer moves all its keys, so re-key fades after the shift.
+- Making a precomp longer does not extend its layer in the parent comp: set that layer's `outPoint` too.
+- Time Remap: `timeRemapEnabled = true`, set `outPoint`, add your keys, then remove only the default keys. Removing every key first throws "Can not set value ... property hidden".
+- `layer.applyPreset(file)` needs the comp open in the viewer, only that layer selected, and `comp.time` set to where the preset should start.
+- Shatter's match name is `APC Shatter` (not `ADBE Shatter`).
+- Applying one of Mahmoud's scale presets (`.ffx`) to a layer replaced the effects already on it: a Slider Control on that null was gone and an `Elastic Controller` was there instead. Apply the preset first and add your own effects after it, or keep controls on another layer.
+- An expression that reads a slider whose value is missing ends in "invalid numeric result" and the property falls back to its static value (a liquid fill silently stayed empty). For a one-off fill, plain keyframes on the shape's Size/Position are safer.
+- Shape layer contents draw top-down: the first group in the list sits on top, and `addProperty()` appends at the bottom. Call `group.moveTo(1)` for a detail that must stay on top (a tick on a badge).
+- For Claude's own checks, `comp.saveFrameToPng(time, file)` writes a PNG with alpha: no render queue, and nothing to send to the editor.
+
 Before handing over: re-read the script for ES3 syntax errors, matching begin/endUndoGroup, correct property match names, and that every text fits the safe area (keep 120 px margins top/bottom for 9:16 UI overlays).
 
 Then the editor links the comp into Premiere with Dynamic Link (File > Adobe Dynamic Link > Import After Effects Composition) or imports the MOGRT.

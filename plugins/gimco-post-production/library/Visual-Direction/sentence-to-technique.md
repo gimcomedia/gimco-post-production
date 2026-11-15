@@ -121,5 +121,8 @@
 | 3 نقاط على التوالي (مشكلة 1، 2، 3) | لون ثابت لكل نقطة (أزرق ثم أصفر ثم أحمر) يمشي على كلمتها وبصرياتها، ونقطة 1 كروت أيقونات، 2 كارت بارات وبيل حكم، 3 قايمة إفكتات | [recipe-dark-ui-talking-head](../After-Effects/recipe-dark-ui-talking-head.md) (القسم 14) |
 | كلمة عاطفية بين جملتين في شورت متكلم | كارت كلمة فل فريم (أبيض سادة أو تدرج 4 ألوان) بنفس بريست الدخول، وبعده لقطة ستوك بالأبيض والأسود بكلمة واحدة | [recipe-minimal-ui-and-realtime-builds](../After-Effects/recipe-minimal-ui-and-realtime-builds.md) (القسم 2) |
 | جملة بتبرز عبارة (اسم أدوات/مهارة) | تظليل بـ Linear Wipe (Overlay أصفر ← برتقالي) من اليمين للعربي، بمنحنى بطيء في الطرفين | [recipe-minimal-ui-and-realtime-builds](../After-Effects/recipe-minimal-ui-and-realtime-builds.md) (القسم 5.4) |
+| جملة بكلمات قصيرة إيقاعها سريع والمتكلم بيشاور | كلمات 3D لاير لكل كلمة في قوس حوالين المتكلم، بتدخل كلمة كلمة وكاميرا بتسحب من زوم قريب، والخلفية هاف تون أبيض وأسود | [recipe-3d-text-camera-paper-reel](../After-Effects/recipe-3d-text-camera-paper-reel.md) (القسم 2–4) |
+| جملة فيها كلمة واحدة هي المقصودة (لوجو، اسم، رقم) | نص على مسار دايرة تحت الدقن + بوكس منوّر حوالين الكلمة وفلاش (وبالعربي الكلمة كلها تنزل مش حرف حرف) | [recipe-3d-text-camera-paper-reel](../After-Effects/recipe-3d-text-camera-paper-reel.md) (القسم 6) |
+| «ورق / مستندات / مش محتاجينه» | ورق ملفوف بيعدّي قدام وورا المتكلم بعمق مجال وشريط أسود بيقفل، أو ورقة Foldspace بـ Roll | [recipe-3d-text-camera-paper-reel](../After-Effects/recipe-3d-text-camera-paper-reel.md) (القسم 7 و11) |
 
 قاعدة: جملة واحدة = فكرة بصرية واحدة. لو الجملة مش بتعمل حاجة من دول، سيب الوش والكابشن بس.

@@ -33,3 +33,4 @@
 - **تمرين من الدرس:** سكريبت وهمي، كل جملة لاير نص 3D في مكان مختلف، والكاميرا بتتنقل بينهم (زوم إن، من الشمال، من فوق، من تحت).
 - **عمق المجال على كارت تسجيل شاشة مسطّح مائل في 3D:** Aperture من 22.4 (من غير بلور) لـ 100 وحتى 300، وFocus Distance يقطع النص: [recipe-product-ui-motion-piece](recipe-product-ui-motion-piece.md) (8.4).
 - **الريندرر والإضاءة:** Advanced 3D بيبلوك أغلب الإفكتات (Drop Shadow وGradient Ramp وHalftone) ← Pre-compose أو Classic 3D للكروت. وظل السبوت لايت محتاج التلات مفاتيح (Casts Shadows على اللايت وعلى اللاير اللي بيحجب، وAccepts Shadows على اللي بيستقبل). وEasy Ease (F9) على كل حركة نل: [recipe-dynamic-3d-ui-scene](recipe-dynamic-3d-ui-scene.md) (الأقسام 4 و6 و7).
+- **كاميرا بعمق مجال على نص 3D وورق ملفوف:** Null للحركة وCamera للـ DOF بس، وFocus Distance بكي وقت السحب: [recipe-3d-text-camera-paper-reel](recipe-3d-text-camera-paper-reel.md) (القسم 3 و7).
