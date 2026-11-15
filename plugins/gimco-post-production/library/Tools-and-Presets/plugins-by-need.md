@@ -231,6 +231,7 @@
 ### عداد أرقام وظل طويل وأدوات مساعدة لقطعة المنتج البرمجي ([recipe-product-ui-motion-piece](../After-Effects/recipe-product-ui-motion-piece.md))
 كلها **غير متحقق إنها متسطبة** (جاية من درس، روابطها مش مؤكدة). البدائل Native في الوصفة.
 - **Odometer (مجاني):** عداد بجليفات بتلف (Create Odometer Texture)، بيدّي «300+». Native: إكسبريشن Source Text بمنحنى بطيء في الآخر ([recipe-offer-two-worlds](../After-Effects/recipe-offer-two-worlds.md)).
+- **Num (إفكت عدّاد أرقام، مش متأكد إنه متسطب):** Number بكيفريمين، وThousand وDecimal Separator، وSymbol (نسبة أو عملة)، وFixed Digits. الرقم التلاتي يبدأ من 100 والتنائي من 10 عشان العرض مايتنطش. اتشرح في [recipe-brand-palette-frames-reel](../After-Effects/recipe-brand-palette-frames-reel.md) (القسم 5). Native: Slider Control + `Math.round()` على Source Text (نفس الوصفة، القسم 10).
 - **Crates Long Shadow (مجاني):** ظل طويل لعنوان. Native: نسخة سوداء + Radial Shadow أو Directional Blur.
 - **Easy Tools (مجاني، سكربت):** Anchor Point في المركز بضغطة. Native: شبكة Anchor في Motion Tools Pro أو يدوي.
 - **Motion Tools (النسخة الكلاسيك المجانية):** Offset بـ Step وفريمات (2 فريم) للتتابع. Native: [rhythm-easing-expressions](../After-Effects/rhythm-easing-expressions.md) (Motion Tools Pro).

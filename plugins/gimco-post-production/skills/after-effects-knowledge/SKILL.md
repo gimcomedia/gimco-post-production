@@ -17,7 +17,7 @@ description: "أي شغل في After Effects: أنيميشن وموشن جراف
 | اللوجو أو المشهد مطلوب مولّد بالكامل | abdallah-generate مش هنا |
 
 ## 2) جاهز ← بريست ← بناء
-- **لو الطلب لوك كامل أو مشهد كامل:** افتح الوصفة بتاعته الأول من «ابدأ هنا» في `INDEX.md`: `recipe-editorial-talking-head`، `recipe-dark-ui-talking-head`، `recipe-app-ui-scene-3d-canvas`، `recipe-selector-wheel-phone-cards`، `recipe-split-screen-cutouts-behind-speaker`، `recipe-dynamic-3d-ui-scene`، `recipe-product-ui-motion-piece`، `recipe-minimal-ui-and-realtime-builds`، `recipe-3d-text-camera-paper-reel`، `recipe-tracked-hook-title-and-chip`. القيم اللي فيها نقط بداية، وجواها اتبع جاهز ← بريست ← بناء للعناصر الصغيرة.
+- **لو الطلب لوك كامل أو مشهد كامل:** افتح الوصفة بتاعته الأول من «ابدأ هنا» في `INDEX.md`: `recipe-editorial-talking-head`، `recipe-dark-ui-talking-head`، `recipe-app-ui-scene-3d-canvas`، `recipe-selector-wheel-phone-cards`، `recipe-split-screen-cutouts-behind-speaker`، `recipe-dynamic-3d-ui-scene`، `recipe-product-ui-motion-piece`، `recipe-minimal-ui-and-realtime-builds`، `recipe-3d-text-camera-paper-reel`، `recipe-tracked-hook-title-and-chip`، `recipe-brand-palette-frames-reel`. القيم اللي فيها نقط بداية، وجواها اتبع جاهز ← بريست ← بناء للعناصر الصغيرة.
 1. **دوّر على عنصر جاهز بالوظيفة الأول** (رقم، ليستة، مقارنة، سؤال، اسم، سهم، صح/غلط، UI): المكتبات الجاهزة في `Tools-and-Presets/`. اعمل Replace للصورة والنص واللون والتوقيت بس، متبنيش العنصر من جديد.
 2. **حركة دخول أيقونة أو تايتل:** طبّق بريست الحركة الجاهز المفضّل (لو متسطب) وظبّط المقاس والمكان بـ Null Parent، بدل ما تعيد الحركة بإيدك.
 3. **مفيش جاهز أو الجهاز معندوش الباكات:** ابني Native بالقواعد تحت. كل وصفة في المكتبة مكتوب جنبها البديل Native.

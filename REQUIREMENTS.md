@@ -38,7 +38,7 @@
 | Un-PreCompose (مجاني) | فك البري-كومب | متسطب | نسخ اللاير يدوي |
 | Deep Glow (الإصدار الأول) | بيفتح مشاريع كورس اللوك الغامق زي ما هي | مش متأكد | Deep Glow 2 بداله |
 
-متسطب كمان: ToneCraft، Chromabba، Glaze، Edge Controller. **Glassary** مذكور، بس مش لاقيينه في فولدرات البلاجنز.
+ToneCraft وChromabba وGlaze وEdge Controller وGlassary: صاحب الريبو قال إنهم عنده، بس مش لاقيينهم في فولدرات البلاجنز، فحالتهم «مش متأكد» لحد ما يتشافوا.
 
 ### بانلات وسكربتات
 | الأداة | بتعمل إيه | الحالة | لو مش عندك |
@@ -48,6 +48,7 @@
 | Morpho.jsx | تجميع عناصر في هدف | السكربت جوه الريبو (`Tools-and-Presets/scripts/`)، التسطيب مش متأكد | Position منحني + Overshoot |
 | ProximityPro | تفاعل العناصر بالقرب | على `<H>` (مش متحقق) | الفكرة اليدوية في proximity-interaction |
 | Morph Studio | مورف | على `<H>`، مش متسطب | Position منحني + Overshoot |
+| Num (إفكت عدّاد أرقام) | عدّاد نسبة أو فلوس بفواصل ورموز | مش متأكد | Slider Control + `Math.round()` |
 | Overlord (مدفوع) أو AEUX (مجاني) + Copy Pasta | من Figma لافتر | مش متأكد | Copy as PNG |
 | Smart Bounce 1.0 | ارتداد بضغطة على كيفريمز Position وScale | ملف التسطيب موجود (يتنقل لـ `<ASSETS>\Installers`)، التسطيب مش متأكد | BOUNCr أو Inertia |
 | Motion Tools / Motion Tools Pro، Flow، EZ Tools، Easy Tools، Loopy، Odometer، Crates Long Shadow | أدوات مساعدة | مش متأكد | البديل مكتوب في plugins-by-need |
@@ -83,7 +84,7 @@ Twitch (بداله S_Shake وBCC Jitter)، Text Exploder (لاير لكل كلم
 - **الأساسي:** Thmanyah Sans (العربي الأساسي، ومعاه Thmanyah Serif Display وThmanyah Serif Text)، وAmira Typo (الكلمة الخاصة). الموجرتات محتاجة الاتنين.
 - **UI ولاتيني:** SF Pro وSF Arabic (ستايل Apple وشاشات التطبيقات)، Montserrat، Inter.
 - **بدايل مجانية لو مفيش:** IBM Plex Sans Arabic، Cairo، Almarai، Noto Naskh Arabic (كلهم على Google Fonts).
-- **مذكورة في وصفات بعينها:** Expo Arabic، DIN Next LT Arabic، Lyon Arabic Display، Ping AR + LT، PP Neue Montreal Arabic، Zain Mobile Swashes، The Year of The Camel، Degular، Circe Rounded، DM Serif Display، 29LT Zawi، HT Roznameh، Helvetica Bold، Roboto وShadows Into Light (Google Fonts)، Rakkas وLalezar وReem Kufi (مجانية)، Raman-Bold (جوه عنصر من SaveObjects).
+- **مذكورة في وصفات بعينها:** Expo Arabic، DIN Next LT Arabic، Lyon Arabic Display، Ping AR + LT، PP Neue Montreal Arabic، Zain Mobile Swashes، The Year of The Camel، Degular، Circe Rounded، DM Serif Display، 29LT Zawi، HT Roznameh، Helvetica Bold، Roboto وShadows Into Light وGabarito وFjalla One (Google Fonts)، Rakkas وLalezar وReem Kufi (مجانية)، Raman-Bold (جوه عنصر من SaveObjects).
 - **من كورس ومش متأكدين إنها متسطبة:** Coolvetica، Edwardian Script ITC.
 - **القاعدة:** الخطوط تقيلة وعريضة وواضحة، مفيش أوزان رفيعة.
 
