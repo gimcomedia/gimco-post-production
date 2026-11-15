@@ -49,7 +49,8 @@
 | ProximityPro | تفاعل العناصر بالقرب | على `<H>` (مش متحقق) | الفكرة اليدوية في proximity-interaction |
 | Morph Studio | مورف | على `<H>`، مش متسطب | Position منحني + Overshoot |
 | Overlord (مدفوع) أو AEUX (مجاني) + Copy Pasta | من Figma لافتر | مش متأكد | Copy as PNG |
-| Motion Tools / Motion Tools Pro، Flow، EZ Tools، Easy Tools، Loopy، Smart Bounce، Odometer، Crates Long Shadow | أدوات مساعدة | مش متأكد | البديل مكتوب في plugins-by-need |
+| Smart Bounce 1.0 | ارتداد بضغطة على كيفريمز Position وScale | ملف التسطيب موجود (يتنقل لـ `<ASSETS>\Installers`)، التسطيب مش متأكد | BOUNCr أو Inertia |
+| Motion Tools / Motion Tools Pro، Flow، EZ Tools، Easy Tools، Loopy، Odometer، Crates Long Shadow | أدوات مساعدة | مش متأكد | البديل مكتوب في plugins-by-need |
 
 ### إكستنشنز
 | الإكستنشن | بيعمل إيه | الحالة | لو مش عندك |
@@ -112,10 +113,10 @@ Twitch (بداله S_Shake وBCC Jitter)، Text Exploder (لاير لكل كلم
 | دروس عمر (4 دروس ريلز + بروجيكتاتها) | وصفات الكابشن والريل | مش محفوظة |
 
 ### باكات وأدوات من صناعها (اتأكد من الرخصة)
-Polite After Pro + Wife، SaveObjects وScenes For saveObject، vahid_graph، Apple PF Pack V2، Trend 2026، Finzar Animations 2.0، Mahmoud's Presets، Morpho v2.1، Highlighter 2.0، ProximityPro، Morph Studio، تمبليتات VOLT.
+Polite After Pro + Wife، SaveObjects وScenes For saveObject، vahid_graph، Apple PF Pack V2، Trend 2026، Finzar Animations 2.0، Mahmoud's Presets، Morpho v2.1، Highlighter 2.0، ProximityPro، Morph Studio، Smart Bounce 1.0، تمبليتات VOLT.
 
 ### مجاني
-Reel Studio (رخصة MIT، تفاصيلها في [`LICENSES.md`](plugins/gimco-post-production/library/LICENSES.md))، و45 جايد من Edita Club (editaclub.com/g)، ودروس يوتيوب (Foldspace، Cosmic، CLEAN & PREMIUM Edit، وغيرها). القايمة الكاملة بمين دخل فين في قسم «المصادر» في [`INDEX.md`](plugins/gimco-post-production/library/INDEX.md).
+Reel Studio (رخصة MIT، تفاصيلها في [`LICENSES.md`](plugins/gimco-post-production/library/LICENSES.md))، و45 جايد من Edita Club (editaclub.com/g)، ودروس يوتيوب (Foldspace، Cosmic، CLEAN & PREMIUM Edit، How to Edit viral Reel Like Uzb، وغيرها). القايمة الكاملة بمين دخل فين في قسم «المصادر» في [`INDEX.md`](plugins/gimco-post-production/library/INDEX.md).
 
 ## 8. الفولدرات على جهاز جديد
 - حط الريبو `gimco-post-production` وفولدر `Post-Production-Assets` جنب بعض.

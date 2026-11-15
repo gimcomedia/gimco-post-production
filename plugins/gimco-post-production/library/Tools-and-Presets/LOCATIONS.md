@@ -44,6 +44,7 @@
 | `Presetify by KuldeepMP4` | `<ASSETS>\Installers\Presetify by KuldeepMP4` |
 | `Tut\Highlighter v2.0.0 Win + Mac` | `<ASSETS>\Installers\Highlighter v2.0.0 Win + Mac` |
 | `unprecompose_v1.1.5` | `<ASSETS>\Installers\unprecompose_v1.1.5` |
+| فولدر Smart Bounce 1.0 جوه `Tut For Learning` | `<ASSETS>\Installers\Smart Bounce 1.0` |
 
 بعد النقل يتشال الجدول ده، وكل ملفات التسطيب يبقى مكانها `<ASSETS>\Installers`.
 
