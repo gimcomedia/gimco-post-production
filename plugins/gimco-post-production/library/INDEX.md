@@ -6,6 +6,7 @@
 
 | الطلب | الوصفة أو اللوك | الأقسام المهمة وقواعد البيت |
 |---|---|---|
+| **أي شغل كامل الستايل بتاعه مش متحدد (أول خطوة)** | [direction-menu](Visual-Direction/direction-menu.md) | القسم 2 (إمتى تعرض) · 3 (شكل العرض) · 4 (بنك الاتجاهات) · 5 (مفاتيح التحكم) · 6 (تريند ولا ثابت) |
 | ريل متكلم، حكاية أو رأي أو نصيحة (لوك إيديتوريال هادي) | [recipe-editorial-talking-head](After-Effects/recipe-editorial-talking-head.md) | القسم 1 (اللوك) · 2.3 (بنية المشروع) · 4 (النص والكلمة الخاصة) · 10 (على ذوقنا) · [قواعد البيت](Visual-Direction/style-systems.md) |
 | ريل متكلم يشرح أداة أو تطبيق أو أرقام (ست غامق + UI) | [recipe-dark-ui-talking-head](After-Effects/recipe-dark-ui-talking-head.md) | القسم 1 · 2.3 (الإيقاع) · 10 (بريستات الحركة) · 11 (على ذوقنا) · [قواعد البيت](Visual-Direction/style-systems.md) |
 | ريل متكلم بحكاية بصرية: بي-رول سينمائي ونص جوه اللقطة (بريمير بس) | [recipe-cinematic-broll-short](Premiere/recipe-cinematic-broll-short.md) | القسم 1 · 7 (الكابشن) · 15 و16 (الساوند والمزيكا) · 19 (تطبيق حقيقي) · [قواعد البيت](Visual-Direction/style-systems.md) |
@@ -88,7 +89,8 @@
 | لوك حسب الست والكاميرا | [look-by-shooting-conditions](Visual-Direction/look-by-shooting-conditions.md) | ✓ |
 | Testimonial نضيف ومقنع | [color-correction-native](Premiere/color-correction-native.md) · [cutting-and-selects](Editorial/cutting-and-selects.md) · [shoot-prep](Visual-Direction/shoot-prep.md) | ✓ |
 | تجهيز تصوير (Testimonial، متكلم) | [shoot-prep](Visual-Direction/shoot-prep.md) | البديل الاقتصادي |
-| أختار ستايل للفيديو كله | [style-systems](Visual-Direction/style-systems.md) · [graphic-families](Visual-Direction/graphic-families.md) | ✓ |
+| أعرض اتجاهات بأسماء على المونتير / أظبط مفاتيح الإيقاع والنص والانتقالات والموشن واللون والصوت / أعرف التريند من الثابت | [direction-menu](Visual-Direction/direction-menu.md) | ✓ |
+| أختار ستايل للفيديو كله | [direction-menu](Visual-Direction/direction-menu.md) · [style-systems](Visual-Direction/style-systems.md) · [graphic-families](Visual-Direction/graphic-families.md) | ✓ |
 | ختام / CTA | [focus-moments-and-endings](Visual-Direction/focus-moments-and-endings.md) | ✓ |
 | أقسم الريل المقصوص لمشاهد / كومب لكل مشهد بنفس التوقيت | [whole-reel-in-ae](After-Effects/whole-reel-in-ae.md) (Scene Edit Detection) | ✓ |
 | رقم أو كلمة ضخمة تدخل بلمعة ولون ورا بعض / مسح مايل | [caption-and-reel-recipes](After-Effects/caption-and-reel-recipes.md) (ريفيل بمسح مايل + نسخ لونية) | ✓ CC Light Sweep + Fill |
@@ -323,6 +325,7 @@
 | [موشن كامل من غير متكلم](Visual-Direction/motion-without-speaker.md) | فويس أوفر، إعلان منتج، لوجو، أو قسم جرافيكس جوه الريل. ومعاه ربط بوصفة قطعة منتج برمجي كاملة (هيكل 5 أجزاء، خلفيات، نص، UI، 3D، ترانزيشن). | مش محتاج | مش محتاج |
 | [من الجملة للتكنيك](Visual-Direction/sentence-to-technique.md) | اختيار الفكرة البصرية المناسبة لكل نوع جملة (هوك، رقم، ليستة، مقارنة، CTA...)، ومنها صفوف ستايل الصفحة الإيديتوريال (بي-رول بتلات طرق، مشهد بيئة، بارين كمية، بوستر فوتيدج، صفحة اقتباس، هوك تاني، صفحة نص). وصفوف لوك الـ UI الغامق (هوك بأيقونة، هوك بكارت توجل أو صفوف، كلمة بتلمع أو بتتكسر، بار كومنت، عرض عنصرين، خريطة طريق). وصفوف كسر النمط (مميّز وسط زحمة، كلمة مختلفة وسط متكررة، خانة فاضية)، ونسبة بخطوط callout، ومفهوم في كلمة، وبار تقدّم. وصفوف بي-رول لكل قيمة وجمل الانتقال والتكرار والنص على سطح اللقطة. ومعاه صفوف لجمل المنتج البرمجي (مشكلة/هوك، إثبات اجتماعي، مميزات برقم، ختام، تغيير حالة). وأربع صفوف لجمل منتج برمجي (زحمة محتوى، بحث، مصادر بتتجمّع، قراءة مستندات). ومعاه صفوف مشهد 3D بأوبجكت لكل كلمة، وكروت 3D، وماتش كت/مورف. ومعاه صفوف النصايح بمينيماليزم وكارت الكلمة والتظليل. وصفوف جديدة: جملة بكلمات قصيرة، وكلمة مقصودة، ولحظة «ورق». | بعض التنفيذات بتشاور على عناصر جاهزة في Tools-and-Presets | كل صف ليه تنفيذ بأدوات افتر الأساسية  |
 | [تجهيز التصوير (كاميرا، عدسة، إضاءة، ست، صوت)](Visual-Direction/shoot-prep.md) | لو الفيديو لسه هيتصور. ومنه ست غامق بنور ملوّن للوك الـ UI الغامق. | كاميرا وإضاءة | موبايل + سوفت بوكس (البديل الاقتصادي في الملف) |
+| [قايمة الاتجاهات ومفاتيح التحكم](Visual-Direction/direction-menu.md) | أول خطوة في أي شغل كامل: عرض 3–4 اتجاهات بأسماء، بنك الاتجاهات (متكلم، إعلان، موشن، طبي)، مفاتيح التحكم، وتريند ولا ثابت. | مش محتاج | مش محتاج |
 | [أنظمة الستايل (visual grammar)](Visual-Direction/style-systems.md) | اختيار ستايل واحد للفيديو حسب وظيفة المحتوى، ووصفتين مجربتين، والثيم الواحد (3 مستويات)، ومستوى الجودة (صعب النسخ). ومن الستايلات editorial-talking-head. ومعاه dark-ui-talking-head والاختيار بين الاتنين. وكتالوج عائلات الستايل (5 للقصير و4 للطويل) بسماتها، واختيار الستايل من المجال. | مش محتاج | مش محتاج |
 
 ### Premiere — التايملاين، الكابشن على الفيديو، الصوت، التسليم
@@ -443,6 +446,7 @@
 | Blade Course (حلقات Reels Editing Principles و Handling The Script + Pacing) + باك BLADE | Editorial/structure-hook-safezone-pacing، Premiere/timeline-principles، Tools-and-Presets/editing-pack-sfx-elements |
 | Reel Studio — Mohamed Abdou (MIT) | Editorial، Visual-Direction/style-systems، Premiere/sound-design، Specialized/medical ([LICENSES](LICENSES.md)) |
 | ريلز اتحللت (معلمة كيميا، إعلان أكل أحمر، شركة توصيل، موشن ديزاينر بعالمين، صانعة محتوى بست تيل، ريلز كابشن ملوّن، شوريل مونتير، شرح جلاس فوق دكتورة، إعلان وكالة للدكاترة، إعلان دكتورة أسنان) | Visual-Direction/* و After-Effects/recipe-studio-thread-pixel-cards و recipe-shape-world-hologram و recipe-offer-two-worlds |
+| مقالتين عن اتجاهات المونتاج والموشن في 2026 (OpusClip: Editing Aesthetics Dominating Short-Form، و AutoAE: Motion Graphics Trends)، اتقروا نوفمبر 2026 | Visual-Direction/direction-menu (القسم 6 وبعض أسماء الاتجاهات) |
 | دروس عمر (4 دروس ريلز + بروجيكتات 64/63/65/4) | After-Effects/caption-and-reel-recipes |
 | Artur (art.vfxs) «Instagram Lenta Animation» | After-Effects/recipe-social-feed-ui |
 | MahdiEdits — Click Visual Effect | After-Effects/recipe-click-effects |
