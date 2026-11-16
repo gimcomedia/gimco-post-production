@@ -287,6 +287,8 @@
 | عايز مشهد 3D سينمائي (مكتب أو غرفة بنور دافي وظلال حقيقية) من غير برنامج 3D | [recipe-dynamic-3d-ui-scene](After-Effects/recipe-dynamic-3d-ui-scene.md) (الأقسام 2–5) | Drop Shadow بنسخة Pre-comp، وSolid بماسكات للنور |
 | الظل مش ظاهر على موديل 3D أو في الغرفة، أو الإفكتات اختفت على لاير 3D | [recipe-dynamic-3d-ui-scene](After-Effects/recipe-dynamic-3d-ui-scene.md) (2.1 و4.5 و14) · [camera-3d](After-Effects/camera-3d.md) | Classic 3D أو Pre-comp |
 | كروت 3D بتنط وكاميرا بتنقل التركيز بينها (إعلان خدمة/SaaS) | [recipe-dynamic-3d-ui-scene](After-Effects/recipe-dynamic-3d-ui-scene.md) (القسم 6) · [icon-bounce-presets](Tools-and-Presets/icon-bounce-presets.md) | Easy Ease + Overshoot |
+| فلو متصل: كورة بتودّي لعنصر، شكل بيتحول للي بعده، خلفية بتتقلب، لمعة على المستطيلات، جريدينت بيوزّع العناصر | [morphing](After-Effects/morphing.md) («سلسلة التحول») | ✓ |
+| الباونس ضعيف أو مش باين / قيم الباونس القوي | [rhythm-easing-expressions](After-Effects/rhythm-easing-expressions.md) («باونس البيت») | ✓ |
 | ترانزيشن مورف (مستطيل يبقى موبايل) أو ماتش كت دايرة بدايرة أو ترانزيشن كاميرا | [recipe-dynamic-3d-ui-scene](After-Effects/recipe-dynamic-3d-ui-scene.md) (القسم 8) · [morphing](After-Effects/morphing.md) | Scale وRotation بـ Easy Ease |
 | ستاك بوست لمشهد 3D (بارات سينمائية، جلو شباك، فلير، بلور تركيز، تراب ونويز) | [recipe-dynamic-3d-ui-scene](After-Effects/recipe-dynamic-3d-ui-scene.md) (القسم 5) | Lens Flare وLumetri وFractal Noise |
 | تحليل إعلان 30 ثانية لخدمة بلقطات 3D (لقطة بلقطة) | [recipe-dynamic-3d-ui-scene](After-Effects/recipe-dynamic-3d-ui-scene.md) (القسم 9) | ✓ |
@@ -447,6 +449,7 @@
 | Reel Studio — Mohamed Abdou (MIT) | Editorial، Visual-Direction/style-systems، Premiere/sound-design، Specialized/medical ([LICENSES](LICENSES.md)) |
 | ريلز اتحللت (معلمة كيميا، إعلان أكل أحمر، شركة توصيل، موشن ديزاينر بعالمين، صانعة محتوى بست تيل، ريلز كابشن ملوّن، شوريل مونتير، شرح جلاس فوق دكتورة، إعلان وكالة للدكاترة، إعلان دكتورة أسنان) | Visual-Direction/* و After-Effects/recipe-studio-thread-pixel-cards و recipe-shape-world-hologram و recipe-offer-two-worlds |
 | مقالتين عن اتجاهات المونتاج والموشن في 2026 (OpusClip: Editing Aesthetics Dominating Short-Form، و AutoAE: Motion Graphics Trends)، اتقروا نوفمبر 2026 | Visual-Direction/direction-menu (القسم 6 وبعض أسماء الاتجاهات) |
+| ريل تعريف بمونتير (ست أحمر + مشاهد UI متصلة بمورف)، اتحلل فريم فريم واتقاس الباونس فيه، نوفمبر 2026 | After-Effects/morphing («سلسلة التحول»)، After-Effects/rhythm-easing-expressions (قيم باونس البيت الجديدة) |
 | دروس عمر (4 دروس ريلز + بروجيكتات 64/63/65/4) | After-Effects/caption-and-reel-recipes |
 | Artur (art.vfxs) «Instagram Lenta Animation» | After-Effects/recipe-social-feed-ui |
 | MahdiEdits — Click Visual Effect | After-Effects/recipe-click-effects |
