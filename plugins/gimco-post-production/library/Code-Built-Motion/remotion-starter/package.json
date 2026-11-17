@@ -1,0 +1,29 @@
+{
+  "name": "house-remotion-starter",
+  "version": "1.0.0",
+  "description": "ستارتر Remotion بقواعد البيت: باونس البيت كسبرينج، عربي متصل كلمة كلمة وحرف حرف، كابشن عند الصدر، ورندر ProRes 4444 شفاف لبريمير",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "stills": "remotion render HouseKitTest out/frames --frames=0,12,20,30,34,60,119 --image-format=png --sequence",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-arabic": "5.3.0",
+    "@remotion/cli": "4.0.544",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.544"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "typescript": "5.9.3"
+  }
+}

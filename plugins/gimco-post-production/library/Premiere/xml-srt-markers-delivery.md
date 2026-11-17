@@ -18,6 +18,6 @@
 
 ## Rendered overlays (only when a code-built animation is wanted)
 
-If a motion piece is built in code (HyperFrames), render it with alpha as ProRes 4444 (`-c:v prores_ks -profile:v 4444 -pix_fmt yuva444p10le`) or PNG sequence, so it sits on a Premiere track over the footage. Prefer HyperFrames (Apache-2.0); Remotion needs a company license for companies with more than 3 employees.
+If a motion piece is built in code, render it with alpha as ProRes 4444 (`-c:v prores_ks -profile:v 4444 -pix_fmt yuva444p10le`) or PNG sequence, so it sits on a Premiere track over the footage. Remotion is the default code engine: the house starter renders ProRes 4444 with alpha by default ([remotion-engine](../Code-Built-Motion/remotion-engine.md)). Remotion is free for individuals and teams of up to 3 people (collaborations count the combined headcount); 4+ people need a Company License. HyperFrames (Apache-2.0) is the alternative when that license is a problem.
 
 ## Hand-off note

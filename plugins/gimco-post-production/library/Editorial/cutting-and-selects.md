@@ -17,6 +17,15 @@
 - B-roll: a 1-3 s real clip that illustrates what the speaker names while the voice continues; silent; starts on the cue word or up to 6 frames before; hard cuts between clips; never proof of a result; never covers the CTA, end card or sign-off. Full screen only if the clip is upscaled no more than 1.25x; otherwise split above the presenter.
 - Keep the recorded goodbye intact; no sting over it.
 
+## كشف السكوت بعتبة من الكليب نفسه (ffmpeg، أي جهاز)
+- **ليه مش عتبة ثابتة:** رقم ثابت (−30 dB مثلًا) بيغلط: كليب صوته واطي بيتقص من كلامه، وكليب عالي فيه نَفَس الأوضة بيتساب. العتبة تتاخد من الكليب.
+1. **قيس:** `ffmpeg -i clip.mov -map 0:a -af loudnorm=print_format=json -f null -` (على ويندوز ممكن `NUL` مكان `-` الأخيرة). خد `input_thresh`: حد الـgating في قياس العلو (EBU R128)، واللي تحته أهدى من إنه يتحسب كلام.
+2. **اكشف:** `ffmpeg -i clip.mov -map 0:a -af "silencedetect=noise=<input_thresh>dB:d=0.5" -f null -` بيطلع أزواج `silence_start` و`silence_end` بالثانية.
+3. **`d` أقل مدة تتحسب سكوت:** 0.5 بداية. الشرح والنصايح أقل منها (كت أشد)، والحكاية والرأي أكتر (أنعم)، زي قاعدة الكت فوق.
+4. **أول وآخر الكليب:** سكوت بيبدأ عند صفر = سكوت أول، وسكوت بيوصل لآخر الملف = سكوت آخر؛ وسكوتين بينهم أقل من 0.2s يتحسبوا واحد.
+- الناتج نقط قص بالثانية تتحول XML أو ماركرز ([xml-srt-markers-delivery](../Premiere/xml-srt-markers-delivery.md)) أو قص في كود Remotion. السكوت اللي مفيهوش كلام بس؛ أي قص في الكلام يتقترح الأول (القاعدة فوق). أداة Silence Remover بتعمل نفس الشغل جوه افتر.
+- اتجرب على ملف فيه ضوضاء واطية بين جملتين: العتبة طلعت من الملف نفسه (−41 dB) والفراغ اتلقط بالظبط من أوله لآخره.
+
 ## إيقاع الكت في ريل المتكلم: J-cut ونفَس قبل النقطة الجديدة
 - **الكت الأول حاد وسريع** (Razor ثم Ripple، جملة جملة). مع خطة جاهزة كت ريل 38 ثانية من خام دقيقة خد حوالي نص دقيقة.
 - **بعده J-cuts:** زحلق صوت كل جملة لحد ما أولها يبدأ تحت آخر صورة الجملة اللي قبلها، فالكلام يتوصل والكت يتخبّى. عشان الصوتين يتراكبوا، كليبات الصوت تتحط بالتبادل على A1 و A2.

@@ -1,5 +1,7 @@
 # Licenses
 
+`Code-Built-Motion/remotion-starter` is our own code. It depends on Remotion (https://www.remotion.dev), which is under the Remotion License: free for individuals and for teams or companies of up to 3 people (collaborations count the combined headcount); larger organizations need a Company License. The principles in `Code-Built-Motion/remotion-engine.md` are written in our words after reading the official Remotion Agent Skills; nothing is copied verbatim. The optional fallback font Noto Sans Arabic (via Fontsource) is under the SIL Open Font License.
+
 Portions of `Editorial/structure-hook-safezone-pacing.md`, `Editorial/idea-and-scene-plan.md`, `Editorial/cutting-and-selects.md`, `Editorial/reference-analysis.md`, `Visual-Direction/style-systems.md`, `Premiere/sound-design.md`, `Specialized/medical.md` and the social-captions-ar skill are adapted from Reel Studio (https://github.com/mohamedabdou-ai/reel-studio).
 
 MIT License
