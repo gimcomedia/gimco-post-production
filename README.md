@@ -14,7 +14,9 @@
 ## إزاي بيتحدّث
 الريبو ده المصدر الوحيد. خطوات أي تحديث في [`CLAUDE.md`](CLAUDE.md)، وكل تحديث متسجل في [`CHANGELOG.md`](CHANGELOG.md)، والفحص قبل أي commit: `python3 tools/check_system.py`.
 
-**تحديث نسخة الجهاز (ويندوز):** دبل كليك على `pull.bat` في أول الريبو. بيعمل `git pull --ff-only` ويقفل على رسالة Done أو Pull failed. لو فشل: افتح GitHub Desktop وشوف التعديلات المحلية.
+**رفع وتحديث كل حاجة مرة واحدة (ويندوز):** دبل كليك على `sync.bat` في أول الريبو: بيفحص الريبو (`check_system.py`، ولو فشل ما بيعملش commit)، وبيعمل commit لأي تعديل برسالة فيها رقم النسخة من أول CHANGELOG، وبعدين pull ثم push، ويقفل على DONE أو سبب الفشل.
+
+**تحديث بس من غير رفع:** دبل كليك على `pull.bat` في أول الريبو. بيعمل `git pull --ff-only` ويقفل على رسالة Done أو Pull failed. لو فشل: افتح GitHub Desktop وشوف التعديلات المحلية.
 
 ## التسطيب
 **Claude Code:**
