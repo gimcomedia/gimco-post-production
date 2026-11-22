@@ -4,6 +4,13 @@
 - **patch** (1.2.**x**): تصحيح أو إضافة جوه ملف موجود.
 - **minor** (1.**x**.0): قسم أو وصفة أو ملف جديد، أو تغيير في طريقة شغل سكيل.
 
+## 1.10.0 — 2026-11-22
+- **المكتبة بقت أخف في القراية (من غير ما حاجة تتشال).** `INDEX.md` بقى موجّه صغير (~10KB بدل 146KB): «إزاي تدوّر» + «ابدأ هنا». جدول «دوّر بالاحتياج» اتنقل لـ `NEEDS.md` (ملف بحث بـ Grep، مش للقراية كاملة)، وجداول الملفات لـ `FILES.md`، والمصادر لـ `SOURCES.md` (الأسماء هنا بس).
+- **الوصفات الكبيرة اتقسمت بالعناوين:** 11 ملف فوق 35KB (product-ui-motion-piece، dark-ui-talking-head، cinematic-broll-short، editorial-talking-head، app-ui-scene-3d-canvas، plugins-by-need، idea-and-scene-plan، sound-design، selector-wheel-phone-cards، minimal-ui-and-realtime-builds، caption-and-reel-recipes) بقى كل واحد خريطة أقسام + فولدر بنفس الاسم فيه جزء لكل قسم. «القسم 10» = افتح الجزء 10 بس. `sentence-to-technique` جدول واحد فبقى ملف بحث.
+- أداة جديدة `tools/split_library.py` (تقسيم أي ملف يعدّي 35KB بنفس الطريقة). `check_system.py`: فحص 12 للأحجام (INDEX ≤15KB، ملف مكتبة ≤35KB، SKILL.md ≤24KB)، والفهرسة بقت من `FILES.md` + خرايط الأقسام.
+- **قواعد البيت اتوحدت (قرارات المونتير):** الباونس الإلزامي على كل عنصر حتى في الاتجاهات الهادية (الهدوء من الإيقاع والنص والكاميرا). العربي المتحرك قاعدة واحدة: كلمة كلمة، واستثناءين بس (كتابة Opacity حرف حرف، وحرف حرف بحركة في الكود بتقسيم الوصل). وزن الخط SemiBold وأتقل، و«Light/Thin/رفيع» في أي وصفة يتقري SemiBold. اتعدّل في style-systems وdirection-menu وarabic-typography وplugins-by-need وسكيلز montage-hub وafter-effects-knowledge.
+- montage-hub وafter-effects-knowledge وCLAUDE.md وREADME بيشاوروا على الترتيب الجديد.
+
 ## 1.9.2 — 2026-11-19
 - `After-Effects/jsx-editable-builds.md`: تمبلت الأيقونة 3D من شكل 2D (تغيير الـPath بس، ونسخ السلسلة كلها بـ replaceSource عشان الأصل يفضل زي ما هو)، ما تقربش من `layer.parent` في نسخ التمبلت، تحويل الإيرور لنص بيعمل إيرور تاني، saveFrameToPng بيرندر بدقة الفيوور، وزرار Open في Run Script File.
 

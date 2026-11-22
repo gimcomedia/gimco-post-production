@@ -9,7 +9,7 @@
   - **mogrt-builder** — قوالب MOGRT تتعدّل في Premiere.
   - **abdallah-generate** — توليد صور وفيديو بموافقة على التكلفة.
   - **social-captions-ar** — وصف المنشور والهاشتاجات.
-- `plugins/gimco-post-production/library/` — مكتبة المراجع (ابدأ من `INDEX.md` ← «ابدأ هنا»، و«قواعد البيت» في `Visual-Direction/style-systems.md`).
+- `plugins/gimco-post-production/library/` — مكتبة المراجع (ابدأ من `INDEX.md` الموجّه ← «ابدأ هنا»، والبحث بالاحتياج في `NEEDS.md`، و«قواعد البيت» في `Visual-Direction/style-systems.md`).
 
 ## إزاي بيتحدّث
 الريبو ده المصدر الوحيد. خطوات أي تحديث في [`CLAUDE.md`](CLAUDE.md)، وكل تحديث متسجل في [`CHANGELOG.md`](CHANGELOG.md)، والفحص قبل أي commit: `python3 tools/check_system.py`.

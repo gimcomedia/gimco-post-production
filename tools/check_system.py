@@ -10,7 +10,12 @@ BANNED = [r"Macca", r"mecca", r"الكبار 01", r"أسماء الأنصاري"
           r"moatassem", r"Blade Course", r"جرين انترناشونال", r"Green International", r"\bGimco\b(?! Media)(?!_Motion)",
           r"STYLE OF CLENT", r"بروبوليس", r"DrAhmed", r"pelleaval", r"Yousefi", r"vahidgraph\.ir", r"[Dd]ani[Dd]esign",
           r"For lEarning", r"Tut ?64", r"GIMDERMA", r"AMWC", r"\bGIM\b", r"\bEdita\b", r"editaclub"]
-NAME_FILES = {"INDEX.md", "LICENSES.md"}
+NAME_FILES = {"INDEX.md", "LICENSES.md", "SOURCES.md"}
+# ملفات بحث في أول المكتبة: مالهاش راس، ومتدوّرش فيها بالقراية كاملة
+LOOKUP = {"INDEX.md", "LICENSES.md", "SOURCES.md", "NEEDS.md", "FILES.md"}
+# ملفات بحث كبيرة مسموح تعدّي حد الحجم (جدول واحد بيتدوّر فيه بـ Grep)
+BIG_OK = {"NEEDS.md", "FILES.md", "Visual-Direction/sentence-to-technique.md"}
+LIMITS = {"INDEX.md": 15, "lib": 35, "skill": 24}  # KB
 RETIRED = [r"New folder\\Post-Production-References", r"New folder/Post-Production-References", r"Abdallah-Skills-v2\\", r"Abdallah-Skills-v2/"]
 LIB_DIRS = "Editorial|Visual-Direction|Premiere|After-Effects|MOGRT|Generation|Tools-and-Presets|Templates-and-Checklists|Specialized|Code-Built-Motion"
 results = []
@@ -21,6 +26,10 @@ def md_files(root):
         for f in sorted(fs):
             if f.endswith(".md"): yield os.path.join(d, f)
 def read(p): return open(p, encoding="utf-8").read()
+def rel(p): return os.path.relpath(p, LIB).replace(os.sep, "/")
+def is_lookup(p): return os.path.dirname(p) == LIB and os.path.basename(p) in LOOKUP
+# جزء من وصفة متقسمة: جوه فولدر ليه ملف بنفس الاسم جنبه (الملف ده هو خريطة الأقسام)
+def is_part(p): return os.path.exists(os.path.dirname(p) + ".md")
 
 # 1) أسماء المصادر برا السكيلات (سطر رخصة MIT استثناء)
 hits = [f"{os.path.relpath(p, ROOT)}:{i}:{b}" for p in md_files(SKILLS) for i, l in enumerate(read(p).split("\n"), 1)
@@ -64,14 +73,15 @@ for d in sorted(os.listdir(SKILLS)):
     if not re.search(r"من غير المكتبة|مش متاحة", t): bad.append(d + ": أساسيات من غير المكتبة")
 check("كل SKILL.md فيه وصف + معيار نتيجة + أساسيات من غير المكتبة", not bad, "; ".join(bad))
 # 7) راس كل ملف مكتبة: الاستخدام / المكان / المتطلبات / البديل Native
-bad = [f"{os.path.relpath(p, LIB)}:{k}" for p in md_files(LIB) if os.path.basename(p) not in NAME_FILES
+bad = [f"{rel(p)}:{k}" for p in md_files(LIB) if not is_lookup(p) and not is_part(p)
        for k in ("الاستخدام", "المكان", "المتطلبات", "البديل Native") if f"**{k}:**" not in read(p)[:1500]]
 check("راس كل ملف مكتبة كامل", not bad, "; ".join(bad[:10]))
-# 8) كل ملف مكتبة متفهرس في INDEX.md
-idx = read(os.path.join(LIB, "INDEX.md"))
-miss = [os.path.relpath(p, LIB).replace(os.sep, "/") for p in md_files(LIB) if os.path.basename(p) not in NAME_FILES
-        and os.path.relpath(p, LIB).replace(os.sep, "/") not in idx]
-check("كل ملفات المكتبة متفهرسة في INDEX.md", not miss, "; ".join(miss))
+# 8) كل ملف مكتبة متفهرس في FILES.md، وكل جزء متسجل في خريطة أقسام ملفه
+idx = read(os.path.join(LIB, "INDEX.md")) + read(os.path.join(LIB, "FILES.md"))
+miss = [rel(p) for p in md_files(LIB) if not is_lookup(p) and not is_part(p) and rel(p) not in idx]
+miss += [rel(p) + " (مش في خريطة أقسامه)" for p in md_files(LIB) if is_part(p)
+         and os.path.basename(os.path.dirname(p)) + "/" + os.path.basename(p) not in read(os.path.dirname(p) + ".md")]
+check("كل ملفات المكتبة متفهرسة (FILES.md + خرايط الأقسام)", not miss, "; ".join(miss[:10]))
 # 9) رقم النسخة في plugin.json = أول نسخة في CHANGELOG.md
 ver = json.load(open(os.path.join(PLUGIN, ".claude-plugin", "plugin.json"), encoding="utf-8"))["version"]
 cl = os.path.join(ROOT, "CHANGELOG.md")
@@ -88,6 +98,14 @@ check("مسارات الجهاز في LOCATIONS بس", not hits, "; ".join(hits[
 bad = [m.group(1) for m in re.finditer(r"\]\(([^)#:]+\.md)\)", read(REQ))] if os.path.exists(REQ) else ["الملف مش موجود"]
 bad = [b for b in bad if b == "الملف مش موجود" or not os.path.exists(os.path.join(ROOT, b))]
 check("REQUIREMENTS.md موجود وروابطه شغالة", not bad, "; ".join(bad))
+
+# 12) الأحجام: الموجّه صغير، وكل ملف بيتقري كامل تحت الحد، وكل SKILL.md خفيف
+kb = lambda p: os.path.getsize(p) / 1024
+big = [] if kb(os.path.join(LIB, "INDEX.md")) <= LIMITS["INDEX.md"] else [f"INDEX.md {kb(os.path.join(LIB, 'INDEX.md')):.0f}KB"]
+big += [f"{rel(p)} {kb(p):.0f}KB" for p in md_files(LIB) if rel(p) not in BIG_OK and rel(p) != "INDEX.md" and kb(p) > LIMITS["lib"]]
+big += [f"{d}/SKILL.md {kb(os.path.join(SKILLS, d, 'SKILL.md')):.0f}KB" for d in sorted(os.listdir(SKILLS))
+        if kb(os.path.join(SKILLS, d, "SKILL.md")) > LIMITS["skill"]]
+check(f"الأحجام (INDEX ≤{LIMITS['INDEX.md']}KB، ملف مكتبة ≤{LIMITS['lib']}KB، SKILL.md ≤{LIMITS['skill']}KB)", not big, "; ".join(big))
 
 print(f"\n{sum(results)}/{len(results)} PASS")
 sys.exit(0 if all(results) else 1)
