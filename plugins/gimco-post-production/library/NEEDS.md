@@ -66,7 +66,7 @@
 | Testimonial نضيف ومقنع | [color-correction-native](Premiere/color-correction-native.md) · [cutting-and-selects](Editorial/cutting-and-selects.md) · [shoot-prep](Visual-Direction/shoot-prep.md) | ✓ |
 | تجهيز تصوير (Testimonial، متكلم) | [shoot-prep](Visual-Direction/shoot-prep.md) | البديل الاقتصادي |
 | أعرض اتجاهات بأسماء على المونتير / أظبط مفاتيح الإيقاع والنص والانتقالات والموشن واللون والصوت / أعرف التريند من الثابت | [direction-menu](Visual-Direction/direction-menu.md) | ✓ |
-| أختار ستايل للفيديو كله | [direction-menu](Visual-Direction/direction-menu.md) · [style-systems](Visual-Direction/style-systems.md) · [graphic-families](Visual-Direction/graphic-families.md) | ✓ |
+| أختار ستايل للفيديو كله / برومبت لستايل معين / أعرض أنواع مختلفة | [styles](Visual-Direction/styles.md) · [direction-menu](Visual-Direction/direction-menu.md) · [style-systems](Visual-Direction/style-systems.md) · [graphic-families](Visual-Direction/graphic-families.md) | ✓ |
 | ختام / CTA | [focus-moments-and-endings](Visual-Direction/focus-moments-and-endings.md) | ✓ |
 | أقسم الريل المقصوص لمشاهد / كومب لكل مشهد بنفس التوقيت | [whole-reel-in-ae](After-Effects/whole-reel-in-ae.md) (Scene Edit Detection) | ✓ |
 | رقم أو كلمة ضخمة تدخل بلمعة ولون ورا بعض / مسح مايل | [caption-and-reel-recipes](After-Effects/caption-and-reel-recipes.md) (ريفيل بمسح مايل + نسخ لونية) | ✓ CC Light Sweep + Fill |

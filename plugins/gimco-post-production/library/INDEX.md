@@ -6,7 +6,7 @@
 
 | عايز إيه | افتح |
 |---|---|
-| أول خطوة في أي شغل كامل الستايل بتاعه مش متحدد | [direction-menu](Visual-Direction/direction-menu.md) + [قواعد البيت](Visual-Direction/style-systems.md) |
+| أول خطوة في أي شغل كامل الستايل بتاعه مش متحدد | [كتالوج الستايلات](Visual-Direction/styles.md) (36 ستايل ببرومبتها، والكارت يتفتح بعد الاختيار بس) + [direction-menu](Visual-Direction/direction-menu.md) + [قواعد البيت](Visual-Direction/style-systems.md) |
 | نوع الطلب ← الوصفة والأقسام | الجدول تحت «ابدأ هنا» |
 | احتياج محدد («نص ورا شخص»، «كارت يتمدد مع العربي»…) | [NEEDS](NEEDS.md): **دوّر فيه بكلمة، ما تقراهوش كله** |
 | ملف معين أو قسم من المكتبة | [FILES](FILES.md) |
