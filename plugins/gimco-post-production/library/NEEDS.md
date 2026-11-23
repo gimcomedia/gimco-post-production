@@ -49,6 +49,7 @@
 | إعلان خدمة / عرض بوعود وهدايا وندرة | [recipe-offer-two-worlds](After-Effects/recipe-offer-two-worlds.md) · [focus-moments-and-endings](Visual-Direction/focus-moments-and-endings.md) | ✓ |
 | متكلم كروما وخلفيته بتتغير مع الكلام / كشف الأخضر | [recipe-glass-ui-over-speaker](After-Effects/recipe-glass-ui-over-speaker.md) (عوالم بتتبدل) · [sentence-to-technique](Visual-Direction/sentence-to-technique.md) | ✓ Keylight |
 | شوريل / بوست بورتفوليو قبل وبعد | [recipe-glass-ui-over-speaker](After-Effects/recipe-glass-ui-over-speaker.md) (عرض الشغل كشوريل) | ✓ |
+| ريل شوريل قبل وبعد لكذا فيديو: إزاي اللقطة اتبنت (بوابة، تشريح طبقات 3D، ممر مشاهد) | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (شوريل قبل/بعد متحرك) · [remotion-engine](Code-Built-Motion/remotion-engine.md) (الأسس 16–18) | ✓ نفس الطبقات في افتر: ماسك Roto على الخام + النهائي فوقه |
 | ترانزيشن موجة مية / ذكرى / حلم / كشف من نقطة | [plugins-by-need](Tools-and-Presets/plugins-by-need.md) (BCC Ripple Dissolve) | ✓ Wave Warp + Radial Wipe |
 | ترانزيشن بين مشهدين (Native) | [framing-and-cut-transitions](Visual-Direction/framing-and-cut-transitions.md) · [caption-and-reel-recipes](After-Effects/caption-and-reel-recipes.md) · [preset-values](Premiere/preset-values.md) | ✓ |
 | ترانزيشن مولّد بين لقطتين | [start-end-transitions](Generation/start-end-transitions.md) · [transition-families-and-prompt-structure](Generation/transition-families-and-prompt-structure.md) | Native فوق |
