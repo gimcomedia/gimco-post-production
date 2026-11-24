@@ -16,6 +16,9 @@
 | بوست قبل/بعد: الخام بالأبيض والأسود جنب الإيديت | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (إطار العرض قبل/بعد) · [code-built-motion-prompts](Code-Built-Motion/code-built-motion-prompts.md) (القالب 5) | ✓ كومب 1080×1920 بكارتين متزامنين |
 | نسخ كتير من نفس الإيديت لفروع أو حملات | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (اللون والتايب) | ✓ لون الأكسنت كنترول واحد في لاير الكنترول أو الموجرت |
 | قطعة موشن بالكود بـ Remotion (ستارتر البيت: باونس، عربي متصل، كابشن عند الصدر، ProRes 4444 شفاف) / قالب واحد يطلع منه نسخ ببيانات مختلفة | [remotion-engine](Code-Built-Motion/remotion-engine.md) (الستارتر · القسم 8) | ✓ كومب في افتر + موجرت بكنترولز |
+| فيديو كامل بالكود من بلاجن جاهز: شوريل أو إعلان منتج، أنيميشن 2D بحكاية، كت سريع على البيت، شرح HTML تفاعلي، PPT متحرك | [remotion-engine](Code-Built-Motion/remotion-engine.md) (القسم 1: البلاجنز المتسطبة) | ✓ افتر بنفس الهيكل |
+| أراجع الشغل بدرجات قبل ما أعرضه / أعرف أسوأ حاجة فيه | [review-and-delivery-checklist](Templates-and-Checklists/review-and-delivery-checklist.md) (القسم 6: جولة النقد) | ✓ |
+| اللقطة شكلها عامة / تنفع لأي موضوع | [idea-and-scene-plan](Editorial/idea-and-scene-plan.md) (توليد الأفكار: اختبار تغيير الموضوع) | ✓ |
 | نفس الباونس بالظبط في افتر والكود (سبرينج ثابت بدل Inertia) | [rhythm-easing-expressions](After-Effects/rhythm-easing-expressions.md) (باونس البيت كسبرينج) · [remotion-engine](Code-Built-Motion/remotion-engine.md) (القسم 4) | ✓ إكسبريشن |
 | زوم أو Scale كبير يتحس بالتساوي (perceptual) | [rhythm-easing-expressions](After-Effects/rhythm-easing-expressions.md) (Scale بيتحس بالمساحة) | ✓ إكسبريشن |
 | قص السكوت بعتبة من الكليب نفسه (ffmpeg، loudnorm ثم silencedetect) | [cutting-and-selects](Editorial/cutting-and-selects.md) (كشف السكوت بعتبة من الكليب نفسه) | ✓ |

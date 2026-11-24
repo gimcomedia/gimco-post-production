@@ -22,7 +22,7 @@
 | فين يتحط الأنيميشن: قيمة واحتفاظ | 6.1 KB | [idea-and-scene-plan/s06.md](idea-and-scene-plan/s06.md) |
 | خطة السكريبت المقسّم (قبل جدول المشاهد) | 2.9 KB | [idea-and-scene-plan/s07.md](idea-and-scene-plan/s07.md) |
 | خطة مشهد من ريفرنسات: قيمة ← ستايل ← ريفرنس ← تفكيك ← اسكتش | 7.9 KB | [idea-and-scene-plan/s08.md](idea-and-scene-plan/s08.md) |
-| توليد الأفكار واختبارها | 2.6 KB | [idea-and-scene-plan/s09.md](idea-and-scene-plan/s09.md) |
+| توليد الأفكار واختبارها واختبار تغيير الموضوع | 3.3 KB | [idea-and-scene-plan/s09.md](idea-and-scene-plan/s09.md) |
 | 1. Build the idea before choosing an effect | 1.4 KB | [idea-and-scene-plan/1.md](idea-and-scene-plan/1.md) |
 | 1b. الهيكل البصري للفيديو اللي فيه بنود | 3.3 KB | [idea-and-scene-plan/1b.md](idea-and-scene-plan/1b.md) |
 | 1c. التمثيل من عين المشاهد (Viewer Depictable) | 2.8 KB | [idea-and-scene-plan/1c.md](idea-and-scene-plan/1c.md) |

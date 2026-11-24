@@ -102,6 +102,7 @@ Twitch (بداله S_Shake وBCC Jitter)، Text Exploder (لاير لكل كلم
 | Claude Code + Python (OpenCV، MediaPipe أو rembg) + Chrome headless (Playwright) + GSAP، وthree.js أو Blender | الموشن المبني بالكود | لقسم Code-Built-Motion بس |
 | Node.js 20.19+ وRemotion (ستارتر البيت في `Code-Built-Motion/remotion-starter`) | المحرك الافتراضي للموشن بالكود: بريفيو حي في Studio ورندر ProRes 4444 شفاف | **مش متأكد** إن Node متسطب (غالبًا موجود مع أدوات الـCLI). Remotion بيتسطب جوه كل مشروع بـ `npm i`. مجاني لفرد أو فريق لحد 3 أشخاص (والتعاون العدد بيتجمع)؛ 4 أو أكتر = Company License. البديل: HyperFrames أو افتر |
 | السكيلات الرسمية لـ Remotion (13 سكيل، نسخة 4.0.541) | مرجع الـAPI لما Remotion يتستخدم | **متسطب** في `<DOCS>\Cluade\remotion-skills` (مرجع بس، الخلاصة في المكتبة). البديل: دوكس Remotion |
+| بلاجنز Claude Code للفيديو بالكود: motion-reel (Aries-Spring)، animation-studio (i-afaqrashid)، tweenkit (wmzspace/claude-motion-skills)، remotion (remotion-dev/claude-code-plugin) | قطع مستقلة كاملة بالكود، ومرجع Remotion كبلاجن | **متسطب** (2026-11-24، نطاق المستخدم). محتاجين Node وffmpeg، وmotion-reel وtweenkit محتاجين Python كمان. ما اتجربوش في شغل لسه. البديل: ستارتر البيت أو افتر |
 
 ## 7. الكورسات والمصادر
 المكتبة فيها الخلاصة كمبادئ بكلامنا، فمش لازم تشتري حاجة عشان تشتغل بيها. دول اللي تشتريه أو تجيبه لو عايز ترجع للمصدر نفسه أو تفتح ملفاته.
