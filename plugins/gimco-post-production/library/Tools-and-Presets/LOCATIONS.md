@@ -38,6 +38,8 @@
 | باك موجرتات Highlighter النهائي (9 موجرتات `Abdallah Mogrts - …`) والبروجيكت `HLX_Mogrts_v01.aep` | `<ASSETS>\Highlighter-MOGRTs` (اتصدّروا من افتر 2027، ما اتجربوش في بريمير؛ محتاجين thmanyah sans وAmira Typo) | الطريقة في [highlighter](highlighter.md) وMOGRT/build-methods |
 | السكيلات الرسمية لـ Remotion (13 سكيل، نسخة 4.0.541؛ الراوتر في `skills\remotion-best-practices\SKILL.md`). مرجع API بس، والخلاصة في [remotion-engine](../Code-Built-Motion/remotion-engine.md) | `<DOCS>\Cluade\remotion-skills` (متحقق 2026-11-17) | دوكس Remotion (رابط الصفحة + `.md`) |
 | فولدر مشاريع Remotion: نسخة من `Code-Built-Motion/remotion-starter` لكل قطعة | `<DOCS>\Cluade\remotion-projects` (**ما اتعملش لسه**: يتعمل مع أول قطعة) | — |
+| نظام ترتيب المشاريع (boim studio، مرخّص، ممنوع يترفع): `boim Folder Structure - AE2027.aep` (تمبلت المشروع الجديد في افتر، متظبط في Preferences > New Project)، والأصلي `26 - Folder Structure.aep`، و`set_boim_template.jsx`، ومولّد الفولدرات `مشروع جديد.bat` / `new_boim_project.py` | `<ASSETS>\Templates\boim studio` (متحقق 2026-11-25) | فولدرات وأسامي بإيدك |
+| After Effects MCP (السيرفر، والبانل `mcp-bridge-auto.jsx` منسوخ في `%APPDATA%\Adobe\After Effects\27.0\Scripts\ScriptUI Panels`) | `<DOCS>\Cluade\after-effects-mcp` (متحقق 2026-11-25) | سكربتات افتر بإيد من File > Scripts |
 | Morpho.jsx (بانل تجميع عناصر في هدف) | جوه الريبو: `Tools-and-Presets/scripts/Morpho.jsx` (متسطب في افتر: مش متحقق) | Position منحني + Overshoot ([morphing](../After-Effects/morphing.md)) |
 
 ## ملفات تسطيب لسه في Downloads (تتنقل لـ `<ASSETS>\Installers`)
