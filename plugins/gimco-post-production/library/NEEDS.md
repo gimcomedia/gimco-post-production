@@ -6,6 +6,7 @@
 | عايز إيه | افتح | Native لو الأداة مش موجودة |
 |---|---|---|
 | هوك قوي في أول الفيديو | [structure-hook-safezone-pacing](Editorial/structure-hook-safezone-pacing.md) (القسم 1: الأنواع التلاتة) · [sentence-to-technique](Visual-Direction/sentence-to-technique.md) | ✓ |
+| الفكرة عادية / أطلّع زاوية أقوى للفكرة / أتأكد إن الفيديو يستاهل يتعمل / الهوك بطبقاته (صورة، صوت، نص، وعد) / الفيديو بيبان إعلان | [idea-and-scene-plan](Editorial/idea-and-scene-plan.md) (توليد الأفكار: فلتر «طب وإيه يعني؟» وتلت زوايا) · [structure-hook-safezone-pacing](Editorial/structure-hook-safezone-pacing.md) (القسم 1) | ✓ |
 | أعرف الفيديو ده محتاج إيه قبل ما أبدأ | [brief-and-reading-material](Editorial/brief-and-reading-material.md) · [creative-direction-brief](Templates-and-Checklists/creative-direction-brief.md) | ✓ |
 | خطة مشاهد | [idea-and-scene-plan](Editorial/idea-and-scene-plan.md) · [editorial-plan-template](Templates-and-Checklists/editorial-plan-template.md) | ✓ |
 | أقص السكوت والإعادات وأختار الـselects | [cutting-and-selects](Editorial/cutting-and-selects.md) · [polite-after-pro](Tools-and-Presets/polite-after-pro.md) (Silence Remover) | ✓ |
@@ -16,6 +17,7 @@
 | بوست قبل/بعد: الخام بالأبيض والأسود جنب الإيديت | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (إطار العرض قبل/بعد) · [code-built-motion-prompts](Code-Built-Motion/code-built-motion-prompts.md) (القالب 5) | ✓ كومب 1080×1920 بكارتين متزامنين |
 | نسخ كتير من نفس الإيديت لفروع أو حملات | [code-built-motion-edits](Code-Built-Motion/code-built-motion-edits.md) (اللون والتايب) | ✓ لون الأكسنت كنترول واحد في لاير الكنترول أو الموجرت |
 | قطعة موشن بالكود بـ Remotion (ستارتر البيت: باونس، عربي متصل، كابشن عند الصدر، ProRes 4444 شفاف) / قالب واحد يطلع منه نسخ ببيانات مختلفة | [remotion-engine](Code-Built-Motion/remotion-engine.md) (الستارتر · القسم 8) | ✓ كومب في افتر + موجرت بكنترولز |
+| تفريغ كابشن عربي محلي بأمر Remotion / عناصر Remotion جاهزة (Elements) أضيفها للكومب / أحدّث Remotion لآخر نسخة | [remotion-engine](Code-Built-Motion/remotion-engine.md) (التسطيب، أدوات جاهزة: Elements والكابشن) | ✓ أداة التفريغ اللي عندنا |
 | فيديو كامل بالكود من بلاجن جاهز: شوريل أو إعلان منتج، أنيميشن 2D بحكاية، كت سريع على البيت، شرح HTML تفاعلي، PPT متحرك | [remotion-engine](Code-Built-Motion/remotion-engine.md) (القسم 1: البلاجنز المتسطبة) | ✓ افتر بنفس الهيكل |
 | أراجع الشغل بدرجات قبل ما أعرضه / أعرف أسوأ حاجة فيه | [review-and-delivery-checklist](Templates-and-Checklists/review-and-delivery-checklist.md) (القسم 6: جولة النقد) | ✓ |
 | اللقطة شكلها عامة / تنفع لأي موضوع | [idea-and-scene-plan](Editorial/idea-and-scene-plan.md) (توليد الأفكار: اختبار تغيير الموضوع) | ✓ |
@@ -64,6 +66,7 @@
 | أسلم الكت ملفات بريمير يفتحها | [xml-srt-markers-delivery](Premiere/xml-srt-markers-delivery.md) | ✓ |
 | صوت إعلان من غير متكلم (مزيكا + SFX) | [sound-design](Premiere/sound-design.md) · [logo-animation-native](After-Effects/logo-animation-native.md) (الصوت) | ✓ |
 | ساوند إفكتس وتوقيتها ومستواها | [sound-design](Premiere/sound-design.md) · [editing-pack-sfx-elements](Tools-and-Presets/editing-pack-sfx-elements.md) | الأوفستات بالإيد |
+| الصوت كتير ومزحوم / أعرف كام أكسنت أحط / حركة الـDrop قبل الضربة / مستوى كل نوع صوت / فيديو كله SFX من غير مزيكا / الصوت بيختفي على سماعة الموبايل | [sound-design](Premiere/sound-design.md) (شغل المحترفين بالأرقام) | ✓ |
 | إضاءة مختلطة / بشرة / توحيد لقطات (Testimonial) | [color-correction-native](Premiere/color-correction-native.md) | ✓ Lumetri |
 | جريد / فيديو آيفون باهت | [color-correction-native](Premiere/color-correction-native.md) · [shoot-prep](Visual-Direction/shoot-prep.md) (الجريد) · [polite-after-pro](Tools-and-Presets/polite-after-pro.md) (iPhone Colour) · [plugins-by-need](Tools-and-Presets/plugins-by-need.md) | Lumetri |
 | لوك حسب الست والكاميرا | [look-by-shooting-conditions](Visual-Direction/look-by-shooting-conditions.md) | ✓ |

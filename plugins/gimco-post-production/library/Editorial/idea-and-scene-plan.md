@@ -22,10 +22,10 @@
 | فين يتحط الأنيميشن: قيمة واحتفاظ | 6.1 KB | [idea-and-scene-plan/s06.md](idea-and-scene-plan/s06.md) |
 | خطة السكريبت المقسّم (قبل جدول المشاهد) | 2.9 KB | [idea-and-scene-plan/s07.md](idea-and-scene-plan/s07.md) |
 | خطة مشهد من ريفرنسات: قيمة ← ستايل ← ريفرنس ← تفكيك ← اسكتش | 7.9 KB | [idea-and-scene-plan/s08.md](idea-and-scene-plan/s08.md) |
-| توليد الأفكار واختبارها واختبار تغيير الموضوع | 3.3 KB | [idea-and-scene-plan/s09.md](idea-and-scene-plan/s09.md) |
-| 1. Build the idea before choosing an effect | 1.4 KB | [idea-and-scene-plan/1.md](idea-and-scene-plan/1.md) |
+| توليد الأفكار واختبارها: فلتر «طب وإيه يعني؟»، تلت زوايا، واختبار تغيير الموضوع | 4.3 KB | [idea-and-scene-plan/s09.md](idea-and-scene-plan/s09.md) |
+| 1. ابني الفكرة قبل ما تختار الإفكت | 2.1 KB | [idea-and-scene-plan/1.md](idea-and-scene-plan/1.md) |
 | 1b. الهيكل البصري للفيديو اللي فيه بنود | 3.3 KB | [idea-and-scene-plan/1b.md](idea-and-scene-plan/1b.md) |
 | 1c. التمثيل من عين المشاهد (Viewer Depictable) | 2.8 KB | [idea-and-scene-plan/1c.md](idea-and-scene-plan/1c.md) |
 | 1d. وقت الفهم (Processing Time) | 1.8 KB | [idea-and-scene-plan/1d.md](idea-and-scene-plan/1d.md) |
 | 1e. الاستعارة من المألوف (Borrowed Interest) | 2.7 KB | [idea-and-scene-plan/1e.md](idea-and-scene-plan/1e.md) |
-| 2. Write the scene plan (EDITORIAL_PLAN.md) before touching the timeline | 1.0 KB | [idea-and-scene-plan/2.md](idea-and-scene-plan/2.md) |
+| 2. اكتب خطة المشاهد (EDITORIAL_PLAN.md) قبل ما تلمس التايملاين | 1.6 KB | [idea-and-scene-plan/2.md](idea-and-scene-plan/2.md) |

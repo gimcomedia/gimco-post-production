@@ -30,7 +30,7 @@ Script rules:
 - Use expressions only when they make the comp easier to edit (e.g. a slider controlling all delays); comment them.
 - Finish with `comp.openInViewer();` and an `alert()` summary in English listing what was created.
 
-Lessons from real builds (Alaa Reel 2, AE 2027):
+Lessons from real builds (AE 2027):
 - `layer.copyToComp(comp)` keeps the source layer's in/out points. After shifting the copy's `startTime`, set its `inPoint`/`outPoint` again, or it can vanish mid-shot.
 - Keyframe times are comp time and travel with `startTime`: shifting a layer moves all its keys, so re-key fades after the shift.
 - Making a precomp longer does not extend its layer in the parent comp: set that layer's `outPoint` too.
