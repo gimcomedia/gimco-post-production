@@ -1,0 +1,13 @@
+{
+  "services": [
+    {"name": "Higgsfield", "match": ["higgsfield", "440323b2-b4cb-477f-b786-61c334f9b059"]},
+    {"name": "Magnific", "match": ["magnific", "db6347e4-c588-44d2-9c83-f23b176d099d"]},
+    {"name": "OpusClip", "match": ["opusclip", "opus_clip", "ai_producer", "15d92e8d-6f6d-453a-abea-752185fceee8"],
+     "free": ["open_upload_card", "wait_upload", "present_choices", "record_choices", "resolve_selection", "read_editing_guide"]},
+    {"name": "ElevenLabs", "match": ["elevenlabs"],
+     "spend": ["text_to_speech", "speech_to_speech", "speech_to_text", "text_to_sound_effects", "text_to_voice",
+               "voice_clone", "isolate_audio", "compose_music", "video_to_music", "create_voice_from_preview",
+               "create_agent", "make_outbound_call", "simulate_conversation", "add_knowledge_base_to_agent",
+               "upload_music_for_inpainting"]}
+  ]
+}

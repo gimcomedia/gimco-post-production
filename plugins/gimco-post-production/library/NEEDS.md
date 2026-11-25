@@ -24,6 +24,9 @@
 | نفس الباونس بالظبط في افتر والكود (سبرينج ثابت بدل Inertia) | [rhythm-easing-expressions](After-Effects/rhythm-easing-expressions.md) (باونس البيت كسبرينج) · [remotion-engine](Code-Built-Motion/remotion-engine.md) (القسم 4) | ✓ إكسبريشن |
 | زوم أو Scale كبير يتحس بالتساوي (perceptual) | [rhythm-easing-expressions](After-Effects/rhythm-easing-expressions.md) (Scale بيتحس بالمساحة) | ✓ إكسبريشن |
 | قص السكوت بعتبة من الكليب نفسه (ffmpeg، loudnorm ثم silencedetect) | [cutting-and-selects](Editorial/cutting-and-selects.md) (كشف السكوت بعتبة من الكليب نفسه) | ✓ |
+| نص عربي من سكربت افتر بيقلب لـTimes / الشدّة بتتقري نقطة / رقم أو «» بيتقلبوا في HTML / كابشن HyperFrames فاضي | [arabic-typography](Visual-Direction/arabic-typography.md) («فخاخ تقنية») | ✓ |
+| أفحص الرندر قبل المراجعة (المقاس، True Peak، العلو، فريمات سودا أو واقفة، شوتات قصيرة، شيت فريمات بالـSafe zone) | [talking-head-pipeline](Editorial/talking-head-pipeline.md) القسم 7 (`tools/qc_reel.py`) · [review-and-delivery-checklist](Templates-and-Checklists/review-and-delivery-checklist.md) | ✓ |
+| خطة قص سكوت جاهزة لريل متكلم (JSON + بريفيو) / الشفايف مش متزامنة بعد القص / حواف البي-رول بتنط / زووم بطيء للمتكلم / كليبات موبايل صوتها مختلف | [talking-head-pipeline](Editorial/talking-head-pipeline.md) (`tools/talking_cut_plan.py`) | ✓ |
 | عربي متحرك حرف حرف والحروف متوصلة / كابشن كلمة كلمة بيتقري بالعكس | [arabic-typography](Visual-Direction/arabic-typography.md) (العربي متحرك كلمة كلمة أو حرف حرف) | ✓ كلمة كلمة |
 | ترانزيشن ولا أوفرلاي على الكت (الطول والهاندلز) | [framing-and-cut-transitions](Visual-Direction/framing-and-cut-transitions.md) (إمتى تحط ترانزيشن أصلًا) | ✓ |
 | الجملة دي أشرحها بصريًا إزاي | [sentence-to-technique](Visual-Direction/sentence-to-technique.md) | ✓ |

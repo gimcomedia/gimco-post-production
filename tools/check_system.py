@@ -107,5 +107,13 @@ big += [f"{d}/SKILL.md {kb(os.path.join(SKILLS, d, 'SKILL.md')):.0f}KB" for d in
         if kb(os.path.join(SKILLS, d, "SKILL.md")) > LIMITS["skill"]]
 check(f"الأحجام (INDEX ≤{LIMITS['INDEX.md']}KB، ملف مكتبة ≤{LIMITS['lib']}KB، SKILL.md ≤{LIMITS['skill']}KB)", not big, "; ".join(big))
 
+# 13) مفيش حروف تحكم مخفية: مسار ويندوز اتكتب من سكربت كنص عادي بيقلب \f و\a و\v و\r لحروف مش باينة بتبوّظ الملف
+CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]|\r(?!\n)")
+roots = [os.path.join(ROOT, f) for f in ("CHANGELOG.md", "CLAUDE.md", "README.md", "REQUIREMENTS.md")]
+bad = [f"{os.path.relpath(p, ROOT)}:{read(p)[:m.start()].count(chr(10)) + 1}"
+       for p in list(md_files(SKILLS)) + list(md_files(LIB)) + [r for r in roots if os.path.exists(r)]
+       for m in [CTRL.search(read(p))] if m]
+check("مفيش حروف تحكم مخفية في ملفات md", not bad, "; ".join(bad[:10]))
+
 print(f"\n{sum(results)}/{len(results)} PASS")
 sys.exit(0 if all(results) else 1)

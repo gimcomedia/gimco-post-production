@@ -15,7 +15,7 @@
 | Adobe Premiere Pro | القص والصوت والجريد والموجرتات | Object Mask محتاج 2026 وأحدث |
 | تطبيق Claude للديسكتوب | Claude يوصل لفولدراتك ويشتغل في افتر وبريمير | |
 | Git + GitHub Desktop | تحديث نسخة الجهاز بـ `pull.bat` | |
-| Python 3 | فحص الريبو `tools/check_system.py` | لمين بيعدّل الريبو بس |
+| Python 3 | فحص الريبو `tools/check_system.py`، وهوك الكريدت وأدوات البلاجن | لازم لهوك الكريدت (من غيره الهوك مش بيسأل)، والباقي اختياري |
 
 ## 2. إعدادات تتظبط مرة واحدة
 - **افتر:** Edit > Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network (للسكربتات والبانلات).
@@ -91,7 +91,7 @@ Twitch (بداله S_Shake وBCC Jitter)، Text Exploder (لاير لكل كلم
 ## 6. أدوات برا أدوبي
 | الأداة | ليه | ملاحظة |
 |---|---|---|
-| ffmpeg | استخراج فريمات، وتفريغ مع Whisper | اختياري |
+| ffmpeg | استخراج فريمات، وتفريغ مع Whisper، وأدوات البلاجن `qc_reel.py` و`talking_cut_plan.py` | اختياري (الأدوات محتاجاه) |
 | Whisper | تفريغ عربي على الجهاز | أو تفريغ Polite After |
 | Figma (المجاني كفاية) | لوحة إلهام وتصميم UI | |
 | حساب Gemini أو ChatGPT | توليد صور ببلاش من المتصفح | |

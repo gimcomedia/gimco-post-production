@@ -13,6 +13,7 @@
 | مقالتين عن اتجاهات المونتاج والموشن في 2026 (OpusClip: Editing Aesthetics Dominating Short-Form، و AutoAE: Motion Graphics Trends)، اتقروا نوفمبر 2026 | Visual-Direction/direction-menu (القسم 6 وبعض أسماء الاتجاهات) |
 | ريل تعريف بمونتير (ست أحمر + مشاهد UI متصلة بمورف)، اتحلل فريم فريم واتقاس الباونس فيه، نوفمبر 2026 | After-Effects/morphing («سلسلة التحول»)، After-Effects/rhythm-easing-expressions (قيم باونس البيت الجديدة) |
 | دروس عمر (4 دروس ريلز + بروجيكتات 64/63/65/4) | After-Effects/caption-and-reel-recipes |
+| ورك فلو مونتاج الريلز لعمر (ريبو claude-video-workflow على GitHub، نسخة نوفمبر 2026، من غير رخصة: الأفكار اتكتبت بكلامنا كمبادئ والكود اتكتب من جديد) | Editorial/talking-head-pipeline، Visual-Direction/arabic-typography («فخاخ تقنية»)، وأدوات البلاجن `tools/qc_reel.py` و`tools/talking_cut_plan.py` و`hooks/credit_guard.py` |
 | Artur (art.vfxs) «Instagram Lenta Animation» | After-Effects/recipe-social-feed-ui |
 | MahdiEdits — Click Visual Effect | After-Effects/recipe-click-effects |
 | درس «اتعلم ازاي تعمل سكوير بيكسل تريندي على افتر ايفكتس» | After-Effects/recipe-studio-thread-pixel-cards (مربعات بكسل منوّرة على مسار) |
